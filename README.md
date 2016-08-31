@@ -3,3 +3,4 @@ Desenvolvimento do Jubilator Pro
 
 Membros do grupo:
 Paolo Zilioti
+Giovane Gabrielli
