@@ -3,5 +3,5 @@ Tarefas a fazer
 - Integração com o Travis - Xha e Giovane
 - Fazer o rake funcionar - Paolo
 - Integração com o CodeClimate - Marco
-- Integração com o PivotalTracker - ???
+- Integração com o PivotalTracker - Marco
 - Integração com o Heroku - ???
