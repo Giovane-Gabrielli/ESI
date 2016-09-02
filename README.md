@@ -1,5 +1,5 @@
 # ESI_RPII<br>
-Desenvolvimento do Jubilator Pro<br><br>
+Desenvolvimento da plataforma Web Jubilator Pro<br><br>
 
 Membros do grupo:<br>
 Paolo Zilioti<br>
