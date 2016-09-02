@@ -3,7 +3,7 @@ Desenvolvimento da plataforma Web Jubilator Pro<br><br>
 
 Membros do grupo:<br>
 Paolo Zilioti<br>
-Giovane Gabrielli<br>
+Giovane Gabriell<br>
 Luiz Augusto Moreira de Souza<br>
 Nicollas Santos Nobrega<br>
 (Xha)Gleidson Fernandes de Souza<br>
