@@ -10,3 +10,9 @@ script:
 before_install:
     - gem update --system
     - gem --version
+    
+    
+deploy:
+    provider: heroku
+    api_key:
+        secure: 30c46bcd-7d7c-4db1-baff-a0b753fe209f
