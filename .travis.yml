@@ -1,12 +1,12 @@
 language: ruby
 rvm:
- - 2.2
+    - 2.2
 
- sudo: false
+sudo: false
  
- script:
-   - rake
+script:
+    - rake
    
- before_install:
-   - gem update --system
-   - gem --version
+before_install:
+    - gem update --system
+    - gem --version
