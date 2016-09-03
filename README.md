@@ -1,6 +1,6 @@
 # ESI_RPII<br>
 Desenvolvimento da plataforma Web Jubilator Pro<br>
-Essa plataforma servirá para ..... **favor, completar a breve descrição**<br>
+Essa plataforma servirá para ajudar os(as) estudantes a gerenciar seus anos de graduação e obter informações que permitam planejar e terminar seu curso nos 6 anos disponíveis.
 
 Membros do grupo:<br>
 Paolo Zilioti<br>
