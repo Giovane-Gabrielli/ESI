@@ -1,5 +1,6 @@
 # ESI_RPII<br>
-Desenvolvimento da plataforma Web Jubilator Pro<br><br>
+Desenvolvimento da plataforma Web Jubilator Pro<br>
+Essa plataforma servirá para ..... **favor, completar a breve descrição**<br>
 
 Membros do grupo:<br>
 Paolo Zilioti<br>
@@ -9,6 +10,8 @@ Nicollas Santos Nobrega<br>
 (Xha)Gleidson Fernandes de Souza<br>
 Marco Antonio de Carvalho<br><br>
 
+**PIVOTAL TRACKER**<br>
+<a href="https://www.pivotaltracker.com/n/projects/1859527">https://www.pivotaltracker.com/n/projects/1859527</a><br>
 
 **TRAVIS CI**<br>
 [![Build Status](https://travis-ci.org/XhaMbuwandong/ESI.svg?branch=master)](https://travis-ci.org/XhaMbuwandong/ESI) - Build Status Badge<br>
