@@ -7,7 +7,7 @@ Paolo Zilioti - 5633965<br>
 Giovane Gabrielli - 8516420<br>
 Luiz Augusto Moreira de Souza<br>
 Nicollas Santos Nobrega<br>
-(Xha)Gleidson Fernandes de Souza<br>
+(Xha)Gleidson Fernandes de Souza - 8657647<br>
 Marco Antonio de Carvalho - 8061772<br><br>
 
 **PIVOTAL TRACKER**<br>
