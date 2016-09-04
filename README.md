@@ -6,7 +6,7 @@ Membros do grupo:<br>
 Paolo Zilioti - 5633965<br>
 Giovane Gabrielli - 8516420<br>
 Luiz Augusto Moreira de Souza - 8061556<br>
-Nicollas Santos Nobrega<br>
+Nicollas Santos Nobrega - 8082702<br>
 (Xha)Gleidson Fernandes de Souza - 8657647<br>
 Marco Antonio de Carvalho - 8061772<br><br>
 
