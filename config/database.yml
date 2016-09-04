@@ -6,27 +6,29 @@
 #
 default: &default
   adapter: postgresql
-  encoding: SQL_ASCII
+  encoding: unicode
   pool: 5
   timeout: 5000
-#  username: <%= ENV['USERNAME'] %>
-#  password: <%= ENV['PASSWORD'] %>
-#  host:     <%= ENV['IP'] %>
+  username: postgres
+  password: password
+  host: localhost
+
+
 
 development:
   <<: *default
-  database: development_pg
+  database: development_app
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test: &test
   <<: *default
-  database: test_pg
+  database: test_app
 
 production:
   <<: *default
-  database: production_pg
+  database: production_app
 
 cucumber:
   <<: *test
