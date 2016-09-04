@@ -15,4 +15,5 @@ before_install:
 deploy:
     provider: heroku
     api_key:
-        secure: 30c46bcd-7d7c-4db1-baff-a0b753fe209f
+        secure: a3bce854-c6c0-4446-a05d-981cd2c348e1
+    app: jubilatorpro
