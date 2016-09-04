@@ -3,7 +3,7 @@ Desenvolvimento da plataforma Web Jubilator Pro<br>
 Essa plataforma servirá para ajudar os(as) estudantes a gerenciar seus anos de graduação e obter informações que permitam planejar e terminar seu curso nos 6 anos disponíveis.
 
 Membros do grupo:<br>
-Paolo Zilioti<br>
+Paolo Zilioti = 5633965<br>
 Giovane Gabrielli<br>
 Luiz Augusto Moreira de Souza<br>
 Nicollas Santos Nobrega<br>
