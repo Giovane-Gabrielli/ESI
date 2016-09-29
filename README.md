@@ -11,7 +11,7 @@ Nicollas Santos Nobrega - 8082702<br>
 Marco Antonio de Carvalho - 8061772<br><br>
 
 **PIVOTAL TRACKER**<br>
-<a href="https://www.pivotaltracker.com/n/projects/1859527">https://www.pivotaltracker.com/n/projects/1859527</a><br>
+<a href="https://www.pivotaltracker.com/n/projects/1859527">https://www.pivotaltracker.com/n/projects/1862731</a><br>
 
 **HEROKU**<br>
 <a href="https://dashboard.heroku.com/apps/jubilatorpro">https://dashboard.heroku.com/apps/jubilatorpro</a><br>
