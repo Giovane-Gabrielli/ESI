@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
     render html: "Bem vindo ao Jubilator"
   end
   
+  def aprovadas
+    render html: "Selecione disciplinas já aprovadas"
+  end
+  
 end
