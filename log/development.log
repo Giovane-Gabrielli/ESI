@@ -455,3 +455,99 @@ Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127
 Processing by ApplicationController#aprovadas as HTML
   Rendered html template (0.0ms)
 Completed 200 OK in 142ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 143.107.79.204 at 2016-10-04 23:17:36 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.1ms)
+Completed 200 OK in 32ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aprovadas" for 143.107.79.204 at 2016-10-04 23:17:53 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 525ms (Views: 524.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 143.107.79.204 at 2016-10-04 23:17:54 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 143.107.79.204 at 2016-10-04 23:17:54 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 143.107.79.204 at 2016-10-04 23:17:54 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 143.107.79.204 at 2016-10-04 23:17:54 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 143.107.79.204 at 2016-10-04 23:17:54 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/aprovadas" for 143.107.79.204 at 2016-10-04 23:18:37 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aprovadas" for 143.107.79.204 at 2016-10-04 23:18:59 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aprovadas" for 143.107.79.204 at 2016-10-04 23:32:56 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 143.107.79.204 at 2016-10-04 23:33:34 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aprovadas" for 143.107.79.204 at 2016-10-04 23:33:41 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 143.107.79.204 at 2016-10-04 23:33:41 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 143.107.79.204 at 2016-10-04 23:33:42 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 143.107.79.204 at 2016-10-04 23:33:42 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 143.107.79.204 at 2016-10-04 23:33:42 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 143.107.79.204 at 2016-10-04 23:33:42 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 143.107.79.204 at 2016-10-04 23:36:35 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 33ms (Views: 20.8ms | ActiveRecord: 0.0ms)

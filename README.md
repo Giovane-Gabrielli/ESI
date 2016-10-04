@@ -3,12 +3,12 @@ Desenvolvimento da plataforma Web Jubilator Pro<br>
 Essa plataforma servirá para ajudar os(as) estudantes a gerenciar seus anos de graduação e obter informações que permitam planejar e terminar seu curso nos 6 anos disponíveis.
 
 Membros do grupo:<br>
-Paolo Zilioti - 5633965<br>
+Paolo Zilioti - 5633965 - https://esi-engenharia-pzilioti.c9users.io/<br>
 Giovane Gabrielli - 8516420<br>
 Luiz Augusto Moreira de Souza - 8061556<br>
 Nicollas Santos Nobrega - 8082702<br>
 (Xha)Gleidson Fernandes de Souza - 8657647<br>
-Marco Antonio de Carvalho - 8061772<br><br>
+Marco Antonio de Carvalho - 8061772 - http://marco-209925.nitrousapp.com/<br><br>
 
 **PIVOTAL TRACKER**<br>
 <a href="https://www.pivotaltracker.com/n/projects/1859527">https://www.pivotaltracker.com/n/projects/1862731</a><br>

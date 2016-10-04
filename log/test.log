@@ -198,3 +198,23 @@ Processing by ApplicationController#aprovadas as HTML
   Rendered html template (0.0ms)
 Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-04 23:16:51 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.1ms)
+Completed 200 OK in 67ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-04 23:16:51 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-04 23:16:51 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 473ms (Views: 472.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (4.9ms)[0m  ROLLBACK
