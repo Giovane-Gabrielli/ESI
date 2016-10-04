@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/index.html' => 'application#hello'
   get '/index.htm' => 'application#hello'
 
-  get '/aprovadas' => 'application#aprovadas'
+  get '/aprovadas' => 'aprovadas#default'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
