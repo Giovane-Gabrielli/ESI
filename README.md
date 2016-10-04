@@ -14,7 +14,8 @@ Marco Antonio de Carvalho - 8061772<br><br>
 <a href="https://www.pivotaltracker.com/n/projects/1859527">https://www.pivotaltracker.com/n/projects/1862731</a><br>
 
 **HEROKU**<br>
-<a href="https://dashboard.heroku.com/apps/jubilatorpro">https://dashboard.heroku.com/apps/jubilatorpro</a><br>
+<a href="https://dashboard.heroku.com/apps/jubilatorpro">https://dashboard.heroku.com/apps/jubilatorpro</a> - Dashboard<br>
+<a href="https://jubilatorpro.herokuapp.com/">https://jubilatorpro.herokuapp.com/</a> - APP<br>
 
 **TRAVIS CI**<br>
 [![Build Status](https://travis-ci.org/Giovane-Gabrielli/ESI.svg?branch=master)](https://travis-ci.org/Giovane-Gabrielli/ESI) - Build Status Badge<br>
