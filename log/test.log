@@ -218,3 +218,667 @@ Processing by AprovadasController#default as HTML
   Rendered aprovadas/default.html.erb within layouts/application (5.1ms)
 Completed 200 OK in 473ms (Views: 472.3ms | ActiveRecord: 0.0ms)
   [1m[35m (4.9ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 01:54:23 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 01:54:23 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 01:54:23 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 257ms (Views: 257.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:22:12 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:22:12 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:22:12 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 134ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:24:06 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:24:06 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:24:06 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 129ms (Views: 129.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:24:06 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:48:05 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:48:05 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:48:05 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 120ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:48:05 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:58:59 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:58:59 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:58:59 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 119ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:58:59 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:59:55 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.1ms)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 02:59:55 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:59:55 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 128ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 02:59:55 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:18:00 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:18:00 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:18:00 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 127ms (Views: 126.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:18:00 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:21:08 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 16ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:21:08 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:21:08 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 122ms (Views: 121.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:21:09 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:24:19 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:24:19 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:24:19 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 126ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:24:19 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:27:35 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:27:35 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:27:35 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 127ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:27:35 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:28:58 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:28:58 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:28:58 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 113ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:28:58 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:30:40 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 14ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-16 03:30:41 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:30:41 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 111ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-16 03:30:41 +0000
+Processing by AprovadasController#default as HTML
+  Rendered aprovadas/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 01:53:58 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 14ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 01:53:58 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 01:53:58 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 125ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 01:53:58 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:10:01 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 16ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:10:01 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 125ms (Views: 124.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:10:01 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:10:01 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:20:30 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 27ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:20:30 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 121ms (Views: 120.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:20:30 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:20:30 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:21:03 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 14ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:21:03 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 128ms (Views: 128.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:21:03 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:21:03 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:27:27 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:27:27 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 136ms (Views: 135.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:27:27 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:27:27 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:28:16 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:28:16 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 141ms (Views: 141.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:28:16 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:28:16 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:38:55 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:38:55 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 137ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:38:56 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:38:56 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:40:41 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:40:41 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:40:42 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:40:42 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:41:08 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:41:08 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 137ms (Views: 136.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:41:09 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:41:09 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:42:16 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:42:16 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 121ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:42:16 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:42:16 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:44:23 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:44:23 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 120ms (Views: 119.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:44:23 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:44:23 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:45:42 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:45:42 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/aprovadas" for 127.0.0.1 at 2016-10-17 02:45:42 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-10-17 02:45:42 +0000
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK

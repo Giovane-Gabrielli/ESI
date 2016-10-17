@@ -1,9 +1,12 @@
 Para rodar o postgres:
     sudo service postgresql start
-    
+
     Ao ligar pela primeira vez, executar o seguinte comando
     rake db:create
-    
+
+Para rodar os testes:
+    rake features
+
 Tutoriais:
     Cucumber:
         http://railscasts.com/episodes/155-beginning-with-cucumber?autoplay=true
