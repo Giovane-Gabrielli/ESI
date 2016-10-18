@@ -1,0 +1,1 @@
+insert into courses (id, name, faculty) values (1, 'Sistemas de Informação', 'EACH');
