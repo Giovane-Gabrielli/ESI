@@ -7,7 +7,7 @@ Paolo Zilioti - 5633965 - https://esi-engenharia-pzilioti.c9users.io/<br>
 Giovane Gabrielli - 8516420<br>
 Luiz Augusto Moreira de Souza - 8061556<br>
 Nicollas Santos Nobrega - 8082702<br>
-(Xha)Gleidson Fernandes de Souza - 8657647<br>
+(Xha)Gleidson Fernandes de Souza - 8657647 - https://ep-esi-xha-mbuwandong.c9users.io/<br>
 Marco Antonio de Carvalho - 8061772 - http://marco-209925.nitrousapp.com/<br><br>
 
 **PIVOTAL TRACKER**<br>
