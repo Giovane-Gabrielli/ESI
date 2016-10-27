@@ -3,7 +3,7 @@ Para rodar o postgres:
 
     Ao ligar pela primeira vez, executar o seguinte comando
     rake db:create
-    
+
     Para criar o banco de acordo com schema.rb:
     rake db:setup
 
@@ -17,7 +17,10 @@ Tutoriais:
 
     Rails:
         https://www.railstutorial.org/book/beginning#sec-the_hello_application
-        
+
     ActiveRecord:
         http://guides.rubyonrails.org/active_record_basics.html
         http://edgeguides.rubyonrails.org/active_record_migrations.html
+
+    GIT Branch:
+        https://www.digitalocean.com/community/tutorials/how-to-use-git-branches
