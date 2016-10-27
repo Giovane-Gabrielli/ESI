@@ -45,38 +45,96 @@ body {
         height: 500px;
         background-color:#42444E;
         /*http://learn.shayhowe.com/html-css/opening-the-box-model/*/
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
 
 #usuario ul {
         list-style:none;
 }
 
-#usuario h2 {
-        font-family: "Tahoma", Geneva, sans-serif;
-        /*http://www.w3schools.com/cssref/css_websafe_fonts.asp*/
-        position: relative;
-        top:-5%;
-        left:22%;
-        margin: 25px 0px 0px 0px;
-}
-
 #usuario h1 {
         text-align: center;
 	color: #979799;
-        margin: 25px 0px 0px 0px;
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
         font-size:15px;
 }
 
+#usuario h2 {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        /*http://www.w3schools.com/cssref/css_websafe_fonts.asp*/
+        color: #FFFFFF;
+        position: relative;
+        top:-25px;
+        left:80px;
+        font-size:25px;       
+}
+
+
+#usuario h3 {
+        color: #979799;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size:10px;
+        position: relative;
+        top:-55px;
+        left:90px;
+        width: 225px;
+}
+
 #usuario a {
-	color: #FFFFFF;
-        text-decoration:none
+	text-decoration:none;
+        display: block;
 }
 
 #usuario a:hover {
-
 	color: #2DB34A;
-        text-decoration:none
+        text-decoration:none;
+        display: block;
+}
+
+#menuusuario ul {
+        padding: 0px;
+        background-color:#FFFFF;
+        list-style:none;
+        position: relative;
+        top:-30px;
+        left:70px;
+        width: 225px;
+        font-size:11px;  
+   
+}
+/*
+#menuusuario ul li { 
+   display: inline;
+}
+*/
+
+#menuusuario ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+ 	/* visual do link */
+	background-color:#EDEDED;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-left:3px solid #2DB34A;
+}
+
+#menuusuario ul li a:hover {
+	color: #2DB34A;
+        background-color:#1F1F1F;
+}
+
+#loginimg_usuario {
+        width:80px;
+        height:80px;
+        position: relative;
+        top:-35px;
+        left:-10px;
+	transform:rotate(90deg);
+        border-radius: 50%;
+        border: 1px solid #979799;
+        box-shadow: inset 1px 1px 1px #fff, 1px 0px 1px #979799; 
+        filter: contrast(140%);
 }
 
 #principal {
@@ -209,6 +267,35 @@ box-shadow: inset 0 2px 5px #fff, 0 2px 3px #666;
 
 .botao:active {
 box-shadow: inset 0 2px 5px #fff, 0 1px 3px #666 !important;
+}
+
+.botaoCadastrar {
+     padding: 1px 11px;
+     border: 1px solid #2DB34A;
+     border-radius: 8px;
+     background-color: #42444E;
+     font-family:"Trebuchet MS", Helvetica, sans-serif;
+     font-weight: bold;
+     color: #979799;
+     text-shadow: 0 1px 0 #666;
+     box-shadow: inset 0 1px 1px #fff, 0 2px 3px #666;
+     cursor:pointer;
+     position: relative;
+     left: 100px;
+     top: 30px;
+}
+
+.botaoCadastrar:hover {
+box-shadow: inset 0 2px 5px #fff, 0 2px 3px #666;
+}
+
+.botaoCadastrar:active {
+box-shadow: inset 0 2px 5px #fff, 0 1px 3px #666 !important;
+}
+
+.active{
+      background-color: #000000;
+      color: #FFFFFFF;
 }
 
 
