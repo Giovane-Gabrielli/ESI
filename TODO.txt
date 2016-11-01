@@ -20,6 +20,7 @@ Tutoriais:
 
     Rails:
         https://www.railstutorial.org/book/beginning#sec-the_hello_application
+        https://www.youtube.com/watch?v=ZHPondVB9RQ&list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP - Ruby on Rails para iniciantes - Jackson Pires
 
     ActiveRecord:
         http://guides.rubyonrails.org/active_record_basics.html
