@@ -1,3 +1,6 @@
+Tutorial para configurar Cloud9 com Postgres e Github:
+http://blog.thefirehoseproject.com/posts/setting-up-a-cloud9-development-environment/
+
 Para rodar o postgres:
     sudo service postgresql start
 
