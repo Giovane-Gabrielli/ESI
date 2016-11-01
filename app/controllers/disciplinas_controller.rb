@@ -10,8 +10,11 @@ class DisciplinasController < ApplicationController
   
   def show
     #@Course.initialInsert 
-    render html: "disciplinas do curso de " + params[:id]
+    #render html: "disciplinas do curso de " + params[:id]
     #@course = Course.teste(params[:id])
+    #@course = Course.initialInsert(params[:id])
+    @course = Course.metodo(params[:id])
+    
     
   end
   

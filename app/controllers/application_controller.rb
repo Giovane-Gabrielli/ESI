@@ -5,6 +5,10 @@ class ApplicationController < ActionController::Base
 
   def hello
     render html: "Bem vindo ao Jubilator"
+    #redirect_to "/views/index.html"
+  end
+  
+  def default
   end
 
 end
