@@ -17,7 +17,6 @@ body {
 #menu ul li a {
 	padding: 2px 10px;
 	display: inline-block;
- 	/* visual do link */
 	background-color:#EDEDED;
 	color: #333;
 	text-decoration: none;
