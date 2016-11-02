@@ -2121,3 +2121,44 @@ Processing by ApplicationController#index as HTML
   Rendered application/index.html within layouts/application (0.1ms)
 Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
   [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-02 14:23:34 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html within layouts/application (4.1ms)
+Completed 200 OK in 42ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+Started GET "/aprovadas" for 127.0.0.1 at 2016-11-02 14:23:34 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/aprovadas" for 127.0.0.1 at 2016-11-02 14:23:34 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/aprovadas" for 127.0.0.1 at 2016-11-02 14:23:34 +0000
+Processing by DisciplinasController#aprovadas as HTML
+  Rendered disciplinas/aprovadas.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/si" for 127.0.0.1 at 2016-11-02 14:23:34 +0000
+Processing by DisciplinasController#SI as HTML
+  Rendered disciplinas/SI.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-02 14:23:34 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
