@@ -1,7 +1,7 @@
 # Given
 Given(/^I am on the Jubilator Pro home page$/) do
 	visit root_path
-	expect(page).to have_content("Bem vindo ao Jubilator")
+	expect(page).to have_content("Jubilator Pro")
 end
 
 Given(/^I am on the Disciplinas já aprovadas page$/) do
