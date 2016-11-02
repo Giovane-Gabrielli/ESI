@@ -7,5 +7,5 @@ When(/^I enter the site$/) do
 end
 
 Then(/^I should see the homepage$/) do
-  expect(page).to have_content("Bem vindo ao Jubilator")
+  expect(page).to have_content("Jubilator Pro")
 end
