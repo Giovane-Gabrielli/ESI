@@ -1,16 +1,8 @@
-<!DOCTYPE HTML>
- <html lang="pt-br">
-<head>
-    <meta charset="utf-8", content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
-    <title>Jubilator Pro - Pagina Inicial</title>
-    <link rel="stylesheet" href="/app/stylesheets/style.css">
-    </head>
-<body>
       <header>
       <nav id="menu">
       <center>
       <ul>
-      <li> <a href="#">Lista de Disciplinas </a> </li>
+      <li> <a href="/disciplinas/si">Lista de Disciplinas </a> </li>
       <li> <a href="#">Lista de Cursos </a> </li>
       <li> <a href="#">Grades Fixas</a> </li>
       <li> <a href="#">Entrar em contato </a> </li>
@@ -23,7 +15,7 @@
       <h1> Jubilator Pro </h1>
       <h2><a>  Fa&ccedil;a o seu login </a></h2> 
       <figure class="html5">
-      <img id="loginimg" src="images/login2.JPG" alt="login">
+      <%= image_tag("login2.JPG", :id => "loginimg", :alt => "login") %>
       </figure>
       <form id="formulario">
          <h3>Nome</h3>
@@ -40,11 +32,11 @@
       <p> Quanto tempo tenho para terminar a faculdade? </p>
       <p> Somos parceiros oficiais da USP, aqui voce consegue cadastrar todas as materias ja realizadas e materias ainda a realizar. Calculamos o seu tempo restante de curso, mostramos suas materias ainda a cursar e o tempo restante para seu jubilamento.
 
-       <a href="https://uspdigital.usp.br/"><img id="uspimg" src="images/usp.png" alt="Sistemas USP"></a>
+       <a href="https://uspdigital.usp.br/">
+           <%= image_tag("usp.png", :id => "uspimg", :alt => "Sistemas USP") %>
+       </a>
 
       </section>
      <footer id="rodape">
      <p>Copyright 2016 Jubilator-Pro - Atualizado em: <time datetime="2016-17-09T13:00:24+01:00">17 de setembro de 2016</time> por <a href="#">Author</a> Luiz Augusto <a href="#comments">reportar erro</a></p>
      </footer>
-</body>
-</html>
