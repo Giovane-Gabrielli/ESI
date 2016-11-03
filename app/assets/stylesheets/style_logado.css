@@ -1,11 +1,12 @@
 body {
-    font-family: Verdana,sans-serif;font: 100 2em "Lato", helvetica, arial, tahoma, sans-serif;
+    font-family: Verdana,sans-serif;
+    font: 100 2em "Lato", helvetica, arial, tahoma, sans-serif;
     font-size: 0.9em;
 }
 #menu ul {
    padding: 0px;
    margin: 0px 1px 0px 1px;
-   background-color:#FFFFF;
+   background-color:#FFFFFF;
    list-style:none;
 }
 #menu ul li { 
@@ -68,7 +69,7 @@ a:hover {
 }
 #menuusuario ul {
         padding: 0px;
-        background-color:#FFFFF;
+        background-color:#FFFFFF;
         list-style:none;
         position: relative;
         top:-50px;
@@ -113,7 +114,7 @@ a:hover {
 }
 footer {
         margin: 0px 1px 1px 1px;
-        background-color:#FFFFF;
+        background-color:#FFFFFF;
         clear: both;
         margin-bottom: 0;
         font-size:9px;
@@ -121,5 +122,5 @@ footer {
 }
 .active{
       background-color: #000000;
-      color: #FFFFFFF;
+      color: #FFFFFF;
 }
