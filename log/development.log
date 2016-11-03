@@ -4756,3 +4756,39 @@ Processing by DisciplinasController#show as HTML
   Parameters: {"id"=>"si"}
   Rendered disciplinas/show.html.erb within layouts/application (4.6ms)
 Completed 200 OK in 4827ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.26.63.61 at 2016-11-03 13:44:41 +0000
+Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (318.9ms)
+Completed 200 OK in 393ms (Views: 383.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-36cd00f1d69700e5be23ef4b981cee1fd6e1bc896d3b53ff1a8cbdff96b4fcae.css?body=1" for 201.26.63.61 at 2016-11-03 13:44:41 +0000
+Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style_logado.self-b6a22bafef1cb767012783278804c7044b1dcb9921baa74fb1b0504b20e1d490.css?body=1" for 201.26.63.61 at 2016-11-03 13:44:42 +0000
+Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 201.26.63.61 at 2016-11-03 13:44:42 +0000
+Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 201.26.63.61 at 2016-11-03 13:44:42 +0000
+Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 201.26.63.61 at 2016-11-03 13:44:42 +0000
+Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.26.63.61 at 2016-11-03 13:44:42 +0000
+Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 201.26.63.61 at 2016-11-03 13:44:42 +0000
+Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
