@@ -11,7 +11,19 @@ class Course < ActiveRecord::Base
     
     def self.metodo (curso)
         om = ObterMaterias.new 
-        om.listarMaterias(curso)
+        ajustarArrayDisciplinas(om.listarMaterias(curso))
+    end
+    
+    def self.ajustarArrayDisciplinas (array)
+       arrumado = []
+       contador = 1
+       array.each do |element|
+           if (contador % 8 == 1 || contador % 8 == 2)
+               arrumado.push(element)
+           end
+           contador += 1
+       end
+       return arrumado
     end
     
 end

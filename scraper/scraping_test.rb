@@ -43,9 +43,9 @@ class ObterMaterias
     	##Pry.start(binding)
 	
     	##Criamos um arquivo CSV com o arranjo de disciplinas.
-    	CSV.open('disciplinas_EACH', 'w') do |csv|
-    		csv << arranjo_disciplinas
-    	end
+    	#CSV.open('disciplinas_EACH', 'w') do |csv|
+    	#	csv << arranjo_disciplinas
+    	#end
 		return arranjo_disciplinas
     end
 

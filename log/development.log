@@ -4792,3 +4792,279 @@ Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0
 
 Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 201.26.63.61 at 2016-11-03 13:44:42 +0000
 Cannot render console from 201.26.63.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 143.107.79.204 at 2016-11-04 20:04:13 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (3.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (288.1ms)
+Completed 200 OK in 412ms (Views: 399.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-36cd00f1d69700e5be23ef4b981cee1fd6e1bc896d3b53ff1a8cbdff96b4fcae.css?body=1" for 143.107.79.204 at 2016-11-04 20:04:14 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style_logado.self-b6a22bafef1cb767012783278804c7044b1dcb9921baa74fb1b0504b20e1d490.css?body=1" for 143.107.79.204 at 2016-11-04 20:04:14 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 143.107.79.204 at 2016-11-04 20:04:15 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 143.107.79.204 at 2016-11-04 20:04:15 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 143.107.79.204 at 2016-11-04 20:04:15 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 143.107.79.204 at 2016-11-04 20:04:15 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 143.107.79.204 at 2016-11-04 20:04:15 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login2-4cc4f5efa681dfe0b73fb0fec2bf3a2cdc1f1999196e24ddf371a4434ba1c2dc.JPG" for 143.107.79.204 at 2016-11-04 20:04:16 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/usp-d33edfee934d72315651747947a2ba615500a29f0d5c9dbb6f4f2aee5f30ab13.png" for 143.107.79.204 at 2016-11-04 20:04:21 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:05:43 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 1903ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:07:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 3115ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:13:45 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+Completed 500 Internal Server Error in 1216ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `ajustarArrayDisciplinas' for #<Class:0x007f2cc0dc1268>):
+  app/models/course.rb:14:in `metodo'
+  app/controllers/disciplinas_controller.rb:16:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.9ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:14:06 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+Completed 500 Internal Server Error in 1204ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `arrumado' for #<Class:0x000000055cf968>
+Did you mean?  Array):
+  app/models/course.rb:18:in `ajustarArrayDisciplinas'
+  app/models/course.rb:14:in `metodo'
+  app/controllers/disciplinas_controller.rb:16:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.2ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:14:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 3393ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:15:26 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1336ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:16:42 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1328ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:17:05 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1820ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:18:17 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1585ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:20:42 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 1232ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error ('"ACH0021"' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <p>Disciplinas do curso de SI</p>
+    2: <%= render @course %>
+    3: 
+    4: 
+    5: <% @course.each do |element| %>
+  app/views/disciplinas/show.html.erb:2:in `_app_views_disciplinas_show_html_erb___2011391348149597689_69915092927540'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.7ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:21:06 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 1511ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error ('"ACH0021"' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <p>Disciplinas do curso de SI</p>
+    2: <%= render @course %>
+    3: 
+    4: 
+    5: <% @course.each do |element| %>
+  app/views/disciplinas/show.html.erb:2:in `_app_views_disciplinas_show_html_erb___2011391348149597689_69915098771840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.1ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:23:02 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 1798ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error ('{"code"=>"ACH0021"}' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <p>Disciplinas do curso de SI</p>
+    2: <%= render @course %>
+    3: 
+    4: 
+    5: <% @course.each do |element| %>
+  app/views/disciplinas/show.html.erb:2:in `_app_views_disciplinas_show_html_erb___2011391348149597689_69915098771840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.5ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:24:17 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 1449ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error ('"ACH0021"' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <p>Disciplinas do curso de SI</p>
+    2: <%= render @course %>
+    3: 
+    4: 
+    5: <% @course.each do |element| %>
+  app/views/disciplinas/show.html.erb:2:in `_app_views_disciplinas_show_html_erb___2011391348149597689_69915098771840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.9ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:24:41 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 2124ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error ('"ACH0021"' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <p>Disciplinas do curso de SI</p>
+    2: <%= render @course %>
+    3: 
+    4: 
+    5: <% @course.each do |element| %>
+  app/views/disciplinas/show.html.erb:2:in `_app_views_disciplinas_show_html_erb___2011391348149597689_69915098771840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.3ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:27:23 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 1249ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error ('"ACH0021"' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <p>Disciplinas do curso de SI</p>
+    2: <%= render @course %>
+    3: 
+    4: 
+    5: <% @course.each do |element| %>
+  app/views/disciplinas/show.html.erb:2:in `_app_views_disciplinas_show_html_erb___2011391348149597689_69915098771840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.0ms)
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-04 20:27:48 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1240ms (Views: 18.6ms | ActiveRecord: 0.0ms)
