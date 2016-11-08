@@ -18,7 +18,7 @@ class Course < ActiveRecord::Base
        arrumado = []
        contador = 1
        array.each do |element|
-           if (contador % 8 == 1 || contador % 8 == 2)
+           if (contador % 8 == 1 || contador % 8 == 2 || contador % 8 == 5)
                arrumado.push(element)
            end
            contador += 1
