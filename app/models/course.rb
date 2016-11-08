@@ -12,6 +12,7 @@ class Course < ActiveRecord::Base
     def self.metodo (curso)
         om = ObterMaterias.new 
         ajustarArrayDisciplinas(om.listarMaterias(curso))
+        #om.listarMaterias(curso)
     end
     
     def self.ajustarArrayDisciplinas (array)
@@ -19,7 +20,10 @@ class Course < ActiveRecord::Base
        contador = 1
        array.each do |element|
            if (contador % 8 == 1 || contador % 8 == 2 || contador % 8 == 5)
-               arrumado.push(element)
+                if element == "Disciplinas Optativas \r\n                          Eletivas"
+                   return arrumado
+                end
+                arrumado.push(element)
            end
            contador += 1
        end

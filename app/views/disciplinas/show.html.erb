@@ -1,4 +1,7 @@
 <p>Selecione disciplinas já aprovadas</p>
-<% @course.each do |element| %>
-<li><%= element %></li>
-<% end %>
+<%= form_tag('/posts') do -%>
+<% @course.each_slice(3) {|arr| %>
+<li><%= check_box_tag arr[0], arr[2], false, name: "valor" %><%= arr[0] + " - " + arr[1] + " - " + arr[2]%></li>
+<% }  %>
+<%= button_tag 'Limpar', type: 'reset', name: "Limpar" %>
+<% end -%>
