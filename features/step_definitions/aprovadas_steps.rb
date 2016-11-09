@@ -12,8 +12,8 @@ end
 
 
 # When
-When(/^I follow Lista de disciplinas$/) do
-  click_link('Lista de Disciplinas')
+When(/^I follow (.*)$/) do |dis|
+  click_link(dis)
 end
 
 When(/^I select (.*)$/) do |dis|

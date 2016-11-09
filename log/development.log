@@ -5068,3 +5068,112 @@ Processing by DisciplinasController#show as HTML
   Parameters: {"id"=>"si"}
   Rendered disciplinas/show.html.erb within layouts/application (0.9ms)
 Completed 200 OK in 1240ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 143.107.79.204 at 2016-11-09 15:05:50 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (301.4ms)
+Completed 200 OK in 381ms (Views: 367.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-36cd00f1d69700e5be23ef4b981cee1fd6e1bc896d3b53ff1a8cbdff96b4fcae.css?body=1" for 143.107.79.204 at 2016-11-09 15:05:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style_logado.self-b6a22bafef1cb767012783278804c7044b1dcb9921baa74fb1b0504b20e1d490.css?body=1" for 143.107.79.204 at 2016-11-09 15:05:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 143.107.79.204 at 2016-11-09 15:05:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 143.107.79.204 at 2016-11-09 15:05:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 143.107.79.204 at 2016-11-09 15:05:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 143.107.79.204 at 2016-11-09 15:05:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 143.107.79.204 at 2016-11-09 15:05:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login2-4cc4f5efa681dfe0b73fb0fec2bf3a2cdc1f1999196e24ddf371a4434ba1c2dc.JPG" for 143.107.79.204 at 2016-11-09 15:05:52 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/usp-d33edfee934d72315651747947a2ba615500a29f0d5c9dbb6f4f2aee5f30ab13.png" for 143.107.79.204 at 2016-11-09 15:05:52 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/disciplinas/si" for 143.107.79.204 at 2016-11-09 15:05:57 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1386ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 143.107.79.204 at 2016-11-09 15:21:47 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cursos" for 143.107.79.204 at 2016-11-09 15:21:51 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CursosController#default as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 143.107.79.204 at 2016-11-09 15:22:37 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 157ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cursos" for 143.107.79.204 at 2016-11-09 15:22:38 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cursos" for 143.107.79.204 at 2016-11-09 15:23:30 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 143.107.79.204 at 2016-11-09 15:31:30 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cursos" for 143.107.79.204 at 2016-11-09 15:31:32 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas/ga" for 143.107.79.204 at 2016-11-09 15:31:39 +0000
+Cannot render console from 143.107.79.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"ga"}
+  Rendered disciplinas/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1923ms (Views: 35.5ms | ActiveRecord: 0.0ms)

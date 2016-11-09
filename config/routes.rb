@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get '/SI' => 'disciplinas#SI'
   get '/si' => 'disciplinas#SI'
 
+  get '/cursos' => 'cursos#default'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   resources :disciplinas

@@ -6,7 +6,7 @@ Feature: User can enter in selecionar disciplina já aprovada
 	Scenario: Enter in Disciplinas já aprovadas page
 
 		Given I am on the Jubilator Pro home page
-		When I follow Lista de disciplinas
+		When I follow Lista de Disciplinas
 		Then I should be on Lista de disciplinas page
         And I should see disciplina Introdução à Programação
         And I should see disciplina Laboratório de Bancos de Dados

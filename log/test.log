@@ -2803,3 +2803,529 @@ Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
   [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
   [1m[35m (0.2ms)[0m  BEGIN
   [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:06:55 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (177.3ms)
+Completed 200 OK in 201ms (Views: 191.0ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:06:55 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1303ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:06:56 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:06:56 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1275ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:06:57 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:13:59 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (186.8ms)
+Completed 200 OK in 211ms (Views: 201.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:13:59 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:13:59 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1609ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:14:01 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:14:01 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:15:06 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (215.9ms)
+Completed 200 OK in 241ms (Views: 231.4ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:15:06 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1266ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:15:07 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:15:07 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1345ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:15:09 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:15:09 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:18:40 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (165.1ms)
+Completed 200 OK in 189ms (Views: 179.4ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:18:40 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1234ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:18:41 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:18:41 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1372ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:18:43 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:18:43 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:19:32 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (185.6ms)
+Completed 200 OK in 209ms (Views: 200.2ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:19:32 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1254ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:19:34 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:19:34 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1406ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:19:35 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:19:35 +0000
+Processing by CursosController#index as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:19:35 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:21:13 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (196.2ms)
+Completed 200 OK in 228ms (Views: 213.8ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:21:13 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1292ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:21:15 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:21:15 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1346ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:21:16 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:21:16 +0000
+Processing by CursosController#default as HTML
+  Rendered html template (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:21:16 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:22:49 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (185.9ms)
+Completed 200 OK in 216ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:22:49 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1403ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:22:51 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:22:51 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1461ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:22:52 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:22:52 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:22:52 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:23:41 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (185.2ms)
+Completed 200 OK in 210ms (Views: 200.6ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:23:42 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1320ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:23:43 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:23:43 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1585ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:23:45 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:23:45 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:23:45 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:27:39 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (181.8ms)
+Completed 200 OK in 206ms (Views: 196.7ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:27:39 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1444ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:27:41 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:27:41 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1573ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:27:42 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:27:42 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:27:42 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:30:15 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (162.2ms)
+Completed 200 OK in 183ms (Views: 174.2ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:30:16 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1826ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:30:17 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:30:18 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1326ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:30:19 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:30:19 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:30:19 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:30:19 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:30:19 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:31:16 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (245.8ms)
+Completed 200 OK in 281ms (Views: 266.3ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:31:17 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1758ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:31:18 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:31:18 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1409ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:31:20 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:31:20 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (2.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:31:20 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 15:31:20 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 15:31:20 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1269ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 15:31:21 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
