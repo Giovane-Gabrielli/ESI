@@ -4,7 +4,10 @@ http://blog.thefirehoseproject.com/posts/setting-up-a-cloud9-development-environ
 Para rodar o postgres:
     sudo service postgresql start
 
-    Ao ligar pela primeira vez, executar o seguinte comando
+Iniciar Rails Server
+    rails s -b $IP -p $PORT
+
+Ao ligar pela primeira vez, executar o seguinte comando
     rake db:create
 
     Para criar o banco de acordo com schema.rb:
