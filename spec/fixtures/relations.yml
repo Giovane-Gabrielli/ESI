@@ -1,0 +1,19 @@
+aluno1_1:
+    student_id: 1
+    discipline_id: 12
+    
+aluno1_2:
+    student_id: 1
+    discipline_id: 13
+    
+aluno2_1:
+    student_id: 2
+    discipline_id: 13
+    
+aluno3_1:
+    student_id: 3
+    discipline_id: 14
+
+aluno3_2:
+    student_id: 3
+    discipline_id: 15

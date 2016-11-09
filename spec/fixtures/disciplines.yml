@@ -1,0 +1,9 @@
+discipline_1:
+    id: 12
+    code: "AAA"
+    name: "A"
+    
+discipline_2:
+    id: 13
+    code: "BBB"
+    name: "B"
