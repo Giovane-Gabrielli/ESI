@@ -1,0 +1,14 @@
+aluno1:
+    id: 1
+    name: "Daniel"
+    nusp: 1234567
+    
+aluno2:
+    id: 2
+    name: "Masro"
+    nusp: 5555555
+    
+aluno3:
+    id: 3
+    name: "Renato"
+    nusp: 9999999

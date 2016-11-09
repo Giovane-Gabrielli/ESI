@@ -2,6 +2,7 @@ load 'scraper/scraping_test.rb'
 
 class Course < ActiveRecord::Base
     has_many :disciplines
+    has_many :students
     attr_accessor :id
     
     def self.initialInsert (curso)
