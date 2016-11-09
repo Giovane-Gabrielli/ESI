@@ -3329,3 +3329,91 @@ Processing by ApplicationController#index as HTML
   Rendered application/index.html.erb within layouts/application (1.8ms)
 Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
   [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36m (122.5ms)[0m  [1mDROP DATABASE IF EXISTS "test_app"[0m
+  [1m[35m (1267.0ms)[0m  CREATE DATABASE "test_app" ENCODING = 'unicode'
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (29.1ms)[0m  CREATE TABLE "courses" ("id" serial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "name" character varying, "faculty" character varying) 
+  [1m[36m (18.9ms)[0m  [1mCREATE TABLE "disciplines" ("id" serial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "code" character varying, "name" character varying, "course_id" integer) [0m
+  [1m[35m (6.6ms)[0m  CREATE  INDEX  "index_disciplines_on_course_id" ON "disciplines" USING btree ("course_id")
+  [1m[36m (8.7ms)[0m  [1mALTER TABLE "disciplines" ADD CONSTRAINT "fk_rails_117b29867c"
+FOREIGN KEY ("course_id")
+  REFERENCES "courses" ("id")
+[0m
+  [1m[35m (13.3ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (8.9ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.7ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (2.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161018144335')[0m
+  [1m[35m (3.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161018142643')
+  [1m[36m (2.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161018142453')[0m
+  [1m[35m (3.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161018141027')
+  [1m[36m (2.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161018140938')[0m
+  [1m[35m (1.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161018142338')
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.5ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 18:28:28 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (587.1ms)
+Completed 200 OK in 620ms (Views: 609.9ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 18:28:28 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1720ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 18:28:30 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 18:28:30 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1547ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 18:28:32 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 18:28:32 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 18:28:32 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+Started GET "/cursos" for 127.0.0.1 at 2016-11-09 18:28:32 +0000
+Processing by CursosController#default as HTML
+  Rendered cursos/default.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+Started GET "/disciplinas/si" for 127.0.0.1 at 2016-11-09 18:28:32 +0000
+Processing by DisciplinasController#show as HTML
+  Parameters: {"id"=>"si"}
+  Rendered disciplinas/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1852ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-11-09 18:28:34 +0000
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
