@@ -34,3 +34,6 @@ Tutoriais:
         
     Criação de Testes com Cucumber.
         https://semaphoreci.com/community/tutorials/introduction-to-writing-acceptance-tests-with-cucumber
+        
+    AJAX
+        http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#form-for

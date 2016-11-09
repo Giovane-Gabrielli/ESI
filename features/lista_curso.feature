@@ -12,7 +12,7 @@ Feature: User can enter in lista de cursos
         And I should see curso Gestão Ambiental
         
     Scenario: Enter in a curso
-      Given I am on the Lista de Cursos page
-      When I follow Sistemas de Informação
-      Then I should see disciplina Engenharia de Sistemas de Informação I
       
+        Given I am on the Lista de Cursos page
+        When I follow Sistemas de Informação
+        Then I should see disciplina Engenharia de Sistemas de Informação I
