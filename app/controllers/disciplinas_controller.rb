@@ -11,8 +11,19 @@ class DisciplinasController < ApplicationController
   end
   
   def create
-    @disciplina = Discipline.metodo(params[:nusp])
-
+    n = params[:nusp]
+    n = n.to_i
+    @disciplina = Student.carregarDisciplinas(n)
+    @lista_disciplinas = []
+    @disciplina.each do |idDis|
+      @lista_disciplinas.push(idDis) 
+    end
+    #@lista_disciplinas = Discipline.find(id: @disciplina)
+    respond_to do |format|
+      format.html #{ redirect_to show_path(@disciplina) }
+      #format.json { render :show, status: :ok, location: @post }
+      format.js
+    end
   end
   
 end

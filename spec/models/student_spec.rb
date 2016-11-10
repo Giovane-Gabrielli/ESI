@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'student'
 
 RSpec.describe Student, :type => :model do
-    fixtures :relations, :students
+    fixtures :relations, :students, :disciplines
 
     describe ".carregarDisciplinas" do
         context "given an empty nusp" do

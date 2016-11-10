@@ -1,9 +1,9 @@
 discipline_1:
     id: 12
-    code: "AAA"
-    name: "A"
+    code: "ACH2001"
+    name: "Introdução à Programação"
     
 discipline_2:
     id: 13
-    code: "BBB"
-    name: "B"
+    code: "ACH2025"
+    name: "Laboratório de Bancos de Dados"

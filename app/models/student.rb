@@ -3,8 +3,10 @@ class Student < ActiveRecord::Base
     belongs_to :course
     
     def self.carregarDisciplinas (nusp)
+        p "pa e pa" + nusp.class.to_s
         disciplinas = []
         aluno = Student.find_by(nusp: nusp)
+        puts aluno
         if not aluno.nil? 
             idAluno = aluno.id
         end
