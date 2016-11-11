@@ -38,11 +38,3 @@ Tutoriais:
     AJAX
         http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#form-for
         
-        
-        
-        <% @lista_disciplinas.each do |dis| %>
-$('#<%= dis.code %>').html(<%= check_box_tag dis.code, "60", true, name: "valor" %><%= dis.code + " - " + dis.name + " - " %> %>)
-<% end %>');
-
-
-$('#test').html('<%= @lista_disciplinas.each { |dis| dis}%>');

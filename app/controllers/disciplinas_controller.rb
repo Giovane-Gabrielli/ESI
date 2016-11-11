@@ -15,10 +15,7 @@ class DisciplinasController < ApplicationController
     n = n.to_i
     @disciplina = Student.carregarDisciplinas(n)
     @lista_disciplinas = []
-    @disciplina.each do |idDis|
-      @lista_disciplinas.push(idDis) 
-    end
-    #@lista_disciplinas = Discipline.find(id: @disciplina)
+    @lista_disciplinas = Discipline.find(@disciplina)
     respond_to do |format|
       format.html #{ redirect_to show_path(@disciplina) }
       #format.json { render :show, status: :ok, location: @post }
