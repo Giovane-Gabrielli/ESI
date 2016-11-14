@@ -1,0 +1,3 @@
+describe("Porcentagem", function(){
+    beforeEach()
+})
