@@ -5,8 +5,7 @@ Feature: User can load all disciplines status
 
 	Scenario: Load disciplines already done
 
-		Given I am on the Lista de disciplinas SI page
-        When I fill in nusp with 1234567
-        And I click on Carregar
+		Given I am on the Lista de disciplinas si with nusp 1234567
         Then ACH2001 must be checked
         And ACH2025 must be checked
+        And ACH2147 must be unchecked

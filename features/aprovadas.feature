@@ -13,7 +13,7 @@ Feature: User can enter in selecionar disciplina já aprovada
 
     Scenario: Limpar seleção de disciplina já aprovada
 
-		Given I am on the Lista de disciplinas SI page
+		Given I am on the Lista de disciplinas si page
 		Then I should be on Lista de disciplinas page
         And I should see disciplina Introdução à Programação
         And I should see disciplina Laboratório de Bancos de Dados

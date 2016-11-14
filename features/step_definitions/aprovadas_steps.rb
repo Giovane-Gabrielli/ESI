@@ -5,9 +5,7 @@ Given(/^I am on the Jubilator Pro home page$/) do
 end
 
 Given(/^I am on the Lista de disciplinas (.*) page$/) do |id|
-  visit root_path
-  click_link('Lista de Disciplinas')
-	expect(page).to have_content("Selecione disciplinas já aprovadas")
+  visit ("/disciplinas/#{id}") 
 end
 
 
