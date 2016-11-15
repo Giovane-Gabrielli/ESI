@@ -13,7 +13,7 @@ class ObterMaterias
 	#Mátodo que buscará as materias da EACH.
     def listarMaterias(id)
     	#site_jupiter = "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=86&codcur=86100&codhab=202&tipo=N"
-    	print id
+    	#print id + "\n"
     	if id == "si" then
     		site_jupiter = "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=86&codcur=86200&codhab=204&tipo=N"
     	elsif id == "ga" then
