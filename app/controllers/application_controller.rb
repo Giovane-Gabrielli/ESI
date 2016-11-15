@@ -10,5 +10,13 @@ class ApplicationController < ActionController::Base
   
   def default
   end
+  
+  def calcular
+    n = params[:ano_entrada]
+    @ano_jubilamento = n.to_i + 5
+    respond_to do |format|
+      format.html
+    end
+  end
 
 end

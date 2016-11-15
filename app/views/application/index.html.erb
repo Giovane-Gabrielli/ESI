@@ -36,7 +36,14 @@
        <a href="https://uspdigital.usp.br/">
            <%= image_tag("usp.png", :id => "uspimg", :alt => "Sistemas USP") %>
        </a>
-
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <%= form_tag('/calcular', remote: true) do -%>
+            Calcule quanto tempo você tem até ser jubilado !!<br>
+            Qual ano você entrou na USP ? <%= text_field_tag 'ano_entrada'%> - <%= button_tag 'Calcular', type: 'submit', name: "Calcular" %>
+        <% end -%>
+        
+        
       </section>
      <footer id="rodape">
      <p>Copyright 2016 Jubilator-Pro - Atualizado em: <time datetime="2016-17-09T13:00:24+01:00">17 de setembro de 2016</time> por <a href="#">Author</a> Luiz Augusto <a href="#comments">reportar erro</a></p>

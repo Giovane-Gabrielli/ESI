@@ -7,5 +7,5 @@ Feature: User can know the time to be jubilado
     
     Given I am on the Jubilator Pro home page
     When I fill ano_entrada with 2010
-    And I click on Qual ano jubilo?
-    Then I should see Você terá até 2015 para se formar
+    And I click on Calcular
+    Then I should see Você terá até o fim do ano de 2015 para se formar 

@@ -16,6 +16,8 @@ Rails.application.routes.draw do
 
   get '/cursos' => 'cursos#default'
 
+  post '/calcular' => 'application#calcular'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   resources :disciplinas
