@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'sobre/sobre_jubilator'
+
+  get 'combinacoes/combinacoes'
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -11,6 +16,8 @@ Rails.application.routes.draw do
   get '/aprovadas' => 'disciplinas#aprovadas'
   get '/SI' => 'disciplinas#SI'
   get '/si' => 'disciplinas#SI'
+
+  get '/cursos' => 'cursos#default'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

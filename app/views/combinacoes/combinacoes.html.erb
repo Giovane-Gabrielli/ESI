@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="Jubilator Pro é uma ferramenta para auxiliar alunos fazer a melhor grade para o semestre na EACH-USP">
+		<meta name="keywords" content="matrícula, timetabing, EACH-USP, horários, combinação">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Jubilator Pro Combinações</title>
+		
+		<%= stylesheet_link_tag "combinacoes.scss" %>
+	</head>
+
+	<body style="background-color:#B0C4DE;background-repeat: repeat-x;">
+		
+		<div id="fb-root" class="fb_reset"></div>
+		<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+		<script></script>
+		
+		<div id="ui_main" style="overflow: auto; width: 910px; margin: 0px auto; display: block;">
+			<div style="font-size:24px;text-align:left; background-color: #FF8C00"><b>Jubilator Pro - Combinações</b></div>
+			<table width="100%"><!-- Aqui não existe tamanho na versão do matrusp. -->
+				<tbody>
+					<tr>
+						<td colspan="2">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr>
+										<td class="ui_campus" align="left">
+											<div id="campus"></div>
+											campus: 
+											<select>
+												<option value="EACH">EACH-USP</option>
+											</select>
+											<select>
+												<option value="SI">Sistemas de Informação</option>
+											</select>
+											<select>
+												<option value="20162">20162</option>
+												<option value="20161">20161</option>
+												<option value="20152">20152</option>
+												<option value="20151">20151</option>
+												<option value="20142">20142</option>
+												<option value="20141">20141</option>
+												<option value="20132">20132</option>
+												<option value="20131">20131</option>
+											</select>
+											
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr>
+										<td>
+											<input class="combobox_input" id="materias_input" type="text">
+											<br>
+											<div id="materias_suggestions" class="combobox_suggestions" style="display: none;">
+												<div style="margin-right:11px;">
+													<div title="Clique aqui para criar uma atividade extra-curricular,
+													adicionando seus próprios horários" 
+													style="cursor: pointer; font-size:13px; font-weight:bold;">
+													Criar atividade extra</div>
+												</div>
+											</div>
+										</td>
+										
+										<td class="ui_logger" style="border: 1px solid lightblue; width: 100%; background-color: 
+										rgb(238, 238, 238); text-align: left;">
+										<<<< escolha suas combinações aqui.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="2">
+							<div id="avisos" class="ui_avisos" style="display: none;"></div>
+							<div id="update_list" class="ui_update" style="display: none;"></div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="2">
+							<div id="materias_list" class="ui_materias">
+								<table cellpadding="1" cellspacing="1">
+									<thead>
+										<tr style="background-color: rgb(238, 238, 238);">
+											<th style="width: 22px;"></th>
+											<th style="text-align: center; width: 60px;">Código</th>
+											<th style="text-align: center; width: 50px;">Turma</th>
+											<th style="text-align: center; width: 60px;">Período</th>
+										</tr>
+									</thead>
+								</table>
+								<div style="overflow: auto; max-height: 231px;">
+									<table cellpadding="1" cellspacing="1" style="width: 882px;">
+										<tbody></tbody>
+									</table>
+								</div>
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td style="width:440px;" valign="top">
+							<div class="ui_turmas" id="turmas_list" style="overflow: auto; position: relative; width: 438px; height: 468px; max-height: 468px;"></div>
+						</td>
+						
+						<td style="width:440px;">
+							<div id="horario" class="ui_horario">
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+											<th>Segunda</th>
+											<th>Terça</th>
+											<th>Quarta</th>
+											<th>Quinta</th>
+											<th>Sexta</th>
+											<th>Sábado</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td style="padding: 0px;">
+												<div class="ui_horario_hora">06:00</div>
+												<div class="ui_horario_hora">07:00</div>
+												<div class="ui_horario_hora">08:00</div>
+												<div class="ui_horario_hora">09:00</div>
+												<div class="ui_horario_hora">10:00</div>
+												<div class="ui_horario_hora">11:00</div>
+												<div class="ui_horario_hora">12:00</div>
+												<div class="ui_horario_hora">13:00</div>
+												<div class="ui_horario_hora">14:00</div>
+												<div class="ui_horario_hora">15:00</div>
+												<div class="ui_horario_hora">16:00</div>
+												<div class="ui_horario_hora">17:00</div>
+												<div class="ui_horario_hora">18:00</div>
+												<div class="ui_horario_hora">19:00</div>
+												<div class="ui_horario_hora">20:00</div>
+												<div class="ui_horario_hora">21:00</div>
+												<div class="ui_horario_hora">22:00</div>
+												<div class="ui_horario_hora">23:00</div>
+												<div class="ui_horario_hora">00:00</div>
+											</td>
+											<td class="ui_horario_celula">
+												<div class="ui_horario_cointainer">
+													<hr class="ui_horario_linha" style="top: 15px;">
+													<hr class="ui_horario_linha" style="top: 38px;">
+													<hr class="ui_horario_linha" style="top: 61px;">
+													<hr class="ui_horario_linha" style="top: 84px;">
+													<hr class="ui_horario_linha" style="top: 107px;">
+													<hr class="ui_horario_linha" style="top: 130px;">
+													<hr class="ui_horario_linha" style="top: 153px;">
+													<hr class="ui_horario_linha" style="top: 176px;">
+													<hr class="ui_horario_linha" style="top: 199px;">
+													<hr class="ui_horario_linha" style="top: 222px;">
+													<hr class="ui_horario_linha" style="top: 245px;">
+													<hr class="ui_horario_linha" style="top: 268px;">
+													<hr class="ui_horario_linha" style="top: 291px;">
+													<hr class="ui_horario_linha" style="top: 314px;">
+													<hr class="ui_horario_linha" style="top: 337px;">
+													<hr class="ui_horario_linha" style="top: 360px;">
+													<hr class="ui_horario_linha" style="top: 383px;">
+													<hr class="ui_horario_linha" style="top: 406px;">
+													<hr class="ui_horario_linha" style="top: 429px;">
+												</div>
+											</td>
+											
+											<td class="ui_horario_celula">
+												<div class="ui_horario_cointainer">
+													<hr class="ui_horario_linha" style="top: 15px;">
+													<hr class="ui_horario_linha" style="top: 38px;">
+													<hr class="ui_horario_linha" style="top: 61px;">
+													<hr class="ui_horario_linha" style="top: 84px;">
+													<hr class="ui_horario_linha" style="top: 107px;">
+													<hr class="ui_horario_linha" style="top: 130px;">
+													<hr class="ui_horario_linha" style="top: 153px;">
+													<hr class="ui_horario_linha" style="top: 176px;">
+													<hr class="ui_horario_linha" style="top: 199px;">
+													<hr class="ui_horario_linha" style="top: 222px;">
+													<hr class="ui_horario_linha" style="top: 245px;">
+													<hr class="ui_horario_linha" style="top: 268px;">
+													<hr class="ui_horario_linha" style="top: 291px;">
+													<hr class="ui_horario_linha" style="top: 314px;">
+													<hr class="ui_horario_linha" style="top: 337px;">
+													<hr class="ui_horario_linha" style="top: 360px;">
+													<hr class="ui_horario_linha" style="top: 383px;">
+													<hr class="ui_horario_linha" style="top: 406px;">
+													<hr class="ui_horario_linha" style="top: 429px;">
+												</div>
+											</td>
+											<td class="ui_horario_celula">
+												<div class="ui_horario_cointainer">
+													<hr class="ui_horario_linha" style="top: 15px;">
+													<hr class="ui_horario_linha" style="top: 38px;">
+													<hr class="ui_horario_linha" style="top: 61px;">
+													<hr class="ui_horario_linha" style="top: 84px;">
+													<hr class="ui_horario_linha" style="top: 107px;">
+													<hr class="ui_horario_linha" style="top: 130px;">
+													<hr class="ui_horario_linha" style="top: 153px;">
+													<hr class="ui_horario_linha" style="top: 176px;">
+													<hr class="ui_horario_linha" style="top: 199px;">
+													<hr class="ui_horario_linha" style="top: 222px;">
+													<hr class="ui_horario_linha" style="top: 245px;">
+													<hr class="ui_horario_linha" style="top: 268px;">
+													<hr class="ui_horario_linha" style="top: 291px;">
+													<hr class="ui_horario_linha" style="top: 314px;">
+													<hr class="ui_horario_linha" style="top: 337px;">
+													<hr class="ui_horario_linha" style="top: 360px;">
+													<hr class="ui_horario_linha" style="top: 383px;">
+													<hr class="ui_horario_linha" style="top: 406px;">
+													<hr class="ui_horario_linha" style="top: 429px;">
+												</div>
+											</td>
+											<td class="ui_horario_celula">
+												<div class="ui_horario_cointainer">
+													<hr class="ui_horario_linha" style="top: 15px;">
+													<hr class="ui_horario_linha" style="top: 38px;">
+													<hr class="ui_horario_linha" style="top: 61px;">
+													<hr class="ui_horario_linha" style="top: 84px;">
+													<hr class="ui_horario_linha" style="top: 107px;">
+													<hr class="ui_horario_linha" style="top: 130px;">
+													<hr class="ui_horario_linha" style="top: 153px;">
+													<hr class="ui_horario_linha" style="top: 176px;">
+													<hr class="ui_horario_linha" style="top: 199px;">
+													<hr class="ui_horario_linha" style="top: 222px;">
+													<hr class="ui_horario_linha" style="top: 245px;">
+													<hr class="ui_horario_linha" style="top: 268px;">
+													<hr class="ui_horario_linha" style="top: 291px;">
+													<hr class="ui_horario_linha" style="top: 314px;">
+													<hr class="ui_horario_linha" style="top: 337px;">
+													<hr class="ui_horario_linha" style="top: 360px;">
+													<hr class="ui_horario_linha" style="top: 383px;">
+													<hr class="ui_horario_linha" style="top: 406px;">
+													<hr class="ui_horario_linha" style="top: 429px;">
+												</div>
+											</td>
+											<td class="ui_horario_celula">
+												<div class="ui_horario_cointainer">
+													<hr class="ui_horario_linha" style="top: 15px;">
+													<hr class="ui_horario_linha" style="top: 38px;">
+													<hr class="ui_horario_linha" style="top: 61px;">
+													<hr class="ui_horario_linha" style="top: 84px;">
+													<hr class="ui_horario_linha" style="top: 107px;">
+													<hr class="ui_horario_linha" style="top: 130px;">
+													<hr class="ui_horario_linha" style="top: 153px;">
+													<hr class="ui_horario_linha" style="top: 176px;">
+													<hr class="ui_horario_linha" style="top: 199px;">
+													<hr class="ui_horario_linha" style="top: 222px;">
+													<hr class="ui_horario_linha" style="top: 245px;">
+													<hr class="ui_horario_linha" style="top: 268px;">
+													<hr class="ui_horario_linha" style="top: 291px;">
+													<hr class="ui_horario_linha" style="top: 314px;">
+													<hr class="ui_horario_linha" style="top: 337px;">
+													<hr class="ui_horario_linha" style="top: 360px;">
+													<hr class="ui_horario_linha" style="top: 383px;">
+													<hr class="ui_horario_linha" style="top: 406px;">
+													<hr class="ui_horario_linha" style="top: 429px;">
+												</div>
+											</td>
+											<td class="ui_horario_celula">
+												<div class="ui_horario_cointainer">
+													<hr class="ui_horario_linha" style="top: 15px;">
+													<hr class="ui_horario_linha" style="top: 38px;">
+													<hr class="ui_horario_linha" style="top: 61px;">
+													<hr class="ui_horario_linha" style="top: 84px;">
+													<hr class="ui_horario_linha" style="top: 107px;">
+													<hr class="ui_horario_linha" style="top: 130px;">
+													<hr class="ui_horario_linha" style="top: 153px;">
+													<hr class="ui_horario_linha" style="top: 176px;">
+													<hr class="ui_horario_linha" style="top: 199px;">
+													<hr class="ui_horario_linha" style="top: 222px;">
+													<hr class="ui_horario_linha" style="top: 245px;">
+													<hr class="ui_horario_linha" style="top: 268px;">
+													<hr class="ui_horario_linha" style="top: 291px;">
+													<hr class="ui_horario_linha" style="top: 314px;">
+													<hr class="ui_horario_linha" style="top: 337px;">
+													<hr class="ui_horario_linha" style="top: 360px;">
+													<hr class="ui_horario_linha" style="top: 383px;">
+													<hr class="ui_horario_linha" style="top: 406px;">
+													<hr class="ui_horario_linha" style="top: 429px;">
+												</div>
+											</td>
+									</tbody>
+								</table>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<table cellspacing="0" cellpadding="0" width="100%">
+								<tbody>
+									<tr>
+										<td style="font-size: 11px;" align="left">
+											Esta ferramenta não substitui a matrícula. Você deve fazer sua matícula
+											no <a href="http://uspdigital.usp.br/jupiterweb">JupiterWeb</a>!. Este aplicativo foi desenvolvido por alunos e não possui vínculo com a USP.
+										</td>
+									</tr>
+									<tr>
+										<td style="font-size: 11px;" align="left">
+											Esta ferramenta não substitui a matrícula. Você deve fazer sua matícula
+											no <a href="">Sobre</a>.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

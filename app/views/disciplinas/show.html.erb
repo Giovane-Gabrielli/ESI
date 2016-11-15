@@ -1,2 +1,18 @@
-<p>Disciplinas do curso de SI</p>
-<%= @course %>
+<p>Selecione disciplinas já aprovadas</p>
+<br><br>
+<%= form_tag('/disciplinas', remote: true) do -%>
+Digite seu número USP: <%= text_field_tag 'nusp'%> - <%= button_tag 'Carregar', type: 'submit', name: "Carregar" %>
+<br><br>
+<% @course.each_slice(3) {|arr| %>
+<% @lista_disciplinas.each { |ld| if ld.code == arr[0] then @existe = true end } %>
+<% if @existe then %>
+<li><%= check_box_tag arr[0], arr[2], true, name: "valor" %><%= arr[0] + " - " + arr[1] + " - " + arr[2]%></li>
+<% else %>
+<li><%= check_box_tag arr[0], arr[2], false, name: "valor" %><%= arr[0] + " - " + arr[1] + " - " + arr[2]%></li>
+<% end %>
+<% @existe = false %>
+<% }  %>
+<br><br>
+<%= button_tag 'Limpar', type: 'reset', name: "Limpar" %>
+<%= @discipline %>
+<% end -%>

@@ -4,7 +4,10 @@ http://blog.thefirehoseproject.com/posts/setting-up-a-cloud9-development-environ
 Para rodar o postgres:
     sudo service postgresql start
 
-    Ao ligar pela primeira vez, executar o seguinte comando
+Iniciar Rails Server
+    rails s -b $IP -p $PORT
+
+Ao ligar pela primeira vez, executar o seguinte comando
     rake db:create
 
     Para criar o banco de acordo com schema.rb:
@@ -12,6 +15,9 @@ Para rodar o postgres:
 
 Para rodar os testes:
     rake features
+    
+Para rodar teste unitário do scrapping.
+    rspec test/scraping_test_spec.rb
 
 Tutoriais:
     Cucumber:
@@ -28,4 +34,10 @@ Tutoriais:
 
     GIT Branch:
         https://www.digitalocean.com/community/tutorials/how-to-use-git-branches
+        
+    Criação de Testes com Cucumber.
+        https://semaphoreci.com/community/tutorials/introduction-to-writing-acceptance-tests-with-cucumber
+        
+    AJAX
+        http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#form-for
         

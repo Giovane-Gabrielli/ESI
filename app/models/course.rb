@@ -2,6 +2,7 @@ load 'scraper/scraping_test.rb'
 
 class Course < ActiveRecord::Base
     has_many :disciplines
+    has_many :students
     attr_accessor :id
     
     def self.initialInsert (curso)
@@ -11,7 +12,23 @@ class Course < ActiveRecord::Base
     
     def self.metodo (curso)
         om = ObterMaterias.new 
-        om.listarMaterias(curso)
+        ajustarArrayDisciplinas(om.listarMaterias(curso))
+        #om.listarMaterias(curso)
+    end
+    
+    def self.ajustarArrayDisciplinas (array)
+       arrumado = []
+       contador = 1
+       array.each do |element|
+           if (contador % 8 == 1 || contador % 8 == 2 || contador % 8 == 5)
+                if element == "Disciplinas Optativas \r\n                          Eletivas"
+                   return arrumado
+                end
+                arrumado.push(element)
+           end
+           contador += 1
+       end
+       return arrumado
     end
     
 end

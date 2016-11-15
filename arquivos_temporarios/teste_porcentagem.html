@@ -1,0 +1,63 @@
+<HTML>
+
+	<HEAD>
+		
+		<TITLE> Teste </TITLE>
+
+		<SCRIPT LANGUAGE="JavaScript">
+			
+<!--
+			
+			var total = 0;
+			
+			var conc = 0;
+
+			function soma(campo) 
+			{
+				if (campo.checked)
+				total += eval(campo.value);
+	
+				else 
+					total -= eval(campo.value);
+	
+				conc = (total * 100)/3240;
+	
+				document.sistema.total.value = conc;
+			}
+
+				//3240 --- 100 %
+				//total --- x  %
+
+		</SCRIPT>
+	
+	</HEAD>
+	
+	<BODY>
+		
+		<FORM METHOD=POST ACTION="" name="sistema">
+
+			Tratamento e Analise de Dados/ Informacoes<input type="checkbox" name="valor" value="30" onClick="soma(this)"><br>
+			
+			Resolucao de Problemas I<input type="checkbox" name="valor" value="60" onClick="soma(this)"><br>
+			
+			Introducao a Programacao<input type="checkbox" name="valor" value="120" onClick="soma(this)"><br>
+			
+			Calculo I<input type="checkbox" name="valor" value="60" onClick="soma(this)"><br>
+		
+			Fundamentos de Sistemas de Informacao<input type="checkbox" name="valor" value="120" onClick="soma(this)"><br>
+			
+			IA<input type="checkbox" name="valor" value="120" onClick="soma(this)"><br>
+
+			AED I<input type="checkbox" name="valor" value="120" onClick="soma(this)"><br>
+
+			Calculo II<input type="checkbox" name="valor" value="60" onClick="soma(this)"><br>
+			
+			AED II<input type="checkbox" name="valor" value="120" onClick="soma(this)"><br>
+
+			Porcentagem do Curso Concluida:<input type="text" name="total" value="" readonly>
+
+		</FORM>
+	
+	</BODY>
+
+</HTML>

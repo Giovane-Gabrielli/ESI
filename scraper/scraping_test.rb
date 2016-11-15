@@ -1,7 +1,5 @@
 require 'nokogiri'
 require 'httparty'
-require 'pry'
-require 'csv'
 
 class ObterMaterias 
 	
@@ -12,10 +10,10 @@ class ObterMaterias
 		id = id
 	end
 	
-	#Mátodo que bbuscará as materias da EACH.
+	#Mátodo que buscará as materias da EACH.
     def listarMaterias(id)
     	#site_jupiter = "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=86&codcur=86100&codhab=202&tipo=N"
-    	print id
+    	#print id + "\n"
     	if id == "si" then
     		site_jupiter = "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=86&codcur=86200&codhab=204&tipo=N"
     	elsif id == "ga" then
@@ -39,17 +37,7 @@ class ObterMaterias
     		arranjo_disciplinas.push(nome_disciplinas)
     	end
     	
-    	##O Pry é usado para apresentar os dados na tela.
-    	##Pry.start(binding)
-	
-    	##Criamos um arquivo CSV com o arranjo de disciplinas.
-    	CSV.open('disciplinas_EACH', 'w') do |csv|
-    		csv << arranjo_disciplinas
-    	end
 		return arranjo_disciplinas
     end
 
 end
-
-#objeto = ObterMaterias.new
-#objeto.listarMaterias

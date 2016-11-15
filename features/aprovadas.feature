@@ -6,28 +6,19 @@ Feature: User can enter in selecionar disciplina já aprovada
 	Scenario: Enter in Disciplinas já aprovadas page
 
 		Given I am on the Jubilator Pro home page
-		When I follow selecionar disciplinas já cursadas
-		Then I should be on the Disciplinas já aprovadas page
-    And I should see disciplina IA
-    And I should see disciplina AED
+		When I follow Lista de Disciplinas
+		Then I should be on Lista de disciplinas page
+        And I should see disciplina Introdução à Programação
+        And I should see disciplina Laboratório de Bancos de Dados
 
-  Scenario: Limpar seleção de disciplina já aprovada
+    Scenario: Limpar seleção de disciplina já aprovada
 
-		Given I am on the Disciplinas já aprovadas page
-		Then I should be on the Disciplinas já aprovadas page
-    And I should see disciplina IA
-    And I should see disciplina AED
-    When I select IA
-    And I select AED
-    And I click on Limpar
-    Then IA must not be checked
-    And AED must not be checked
-
-  Scenario: Ir para a página das disciplinas de SI a partir da página /aprovadas
-
-		Given I am on the Disciplinas já aprovadas page
-		Then I should be on the Disciplinas já aprovadas page
-    And I should see disciplina IA
-    And I should see disciplina AED
-    When I follow Ver todas as matérias de SI
-    Then I must be redirect to Disciplinas de SI
+		Given I am on the Lista de disciplinas si page
+		Then I should be on Lista de disciplinas page
+        And I should see disciplina Introdução à Programação
+        And I should see disciplina Laboratório de Bancos de Dados
+        When I select ACH2001
+        And I select ACH2025
+        And I click on Limpar
+        Then ACH2001 must not be checked
+        And ACH2025 must not be checked
