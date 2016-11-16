@@ -16,6 +16,7 @@ class ApplicationController < ActionController::Base
     @ano_jubilamento = n.to_i + 5
     respond_to do |format|
       format.html
+      format.js
     end
   end
 
