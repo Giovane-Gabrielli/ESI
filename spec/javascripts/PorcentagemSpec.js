@@ -1,3 +1,9 @@
 describe("Porcentagem", function(){
-    beforeEach()
+    var porcentagem;
+    
+    beforeEach(function() {
+        porcentagem = new Porcentagem();
+    });
+    
+    
 })

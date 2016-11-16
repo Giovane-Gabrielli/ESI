@@ -12,7 +12,7 @@ function soma(campo)
 	
 	conc = (total * 100)/3240;
 	
-	document.sistema.total.value = conc;
+	document.getElementById('result').value = conc;
 }
 
 	//3240 --- 100 %
