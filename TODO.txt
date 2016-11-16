@@ -15,6 +15,9 @@ Ao ligar pela primeira vez, executar o seguinte comando
 
 Para rodar os testes:
     rake features
+    
+Para rodar teste unitário do scrapping.
+    rspec test/scraping_test_spec.rb
 
 Tutoriais:
     Cucumber:
