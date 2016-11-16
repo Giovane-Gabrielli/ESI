@@ -10,7 +10,7 @@ function soma(campo)
 	else 
 		total -= eval(campo.value);
 	
-	conc = (total * 100)/3240;
+	conc = (total * 100)/2850;
 	
 	document.getElementById('result').value = conc;
 }
