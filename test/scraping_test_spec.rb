@@ -63,29 +63,29 @@ describe ObterMaterias do
     expect(materias[8]).to eq("ACH0041")
     expect(materias[9]).to eq("Resolução de Problemas I")
     
-    expect(materias[16]).to eq("ACH0051")
-    expect(materias[17]).to eq("Estudos Diversificados I")
+    expect(materias[16]).to eq("ACH1001")
+    expect(materias[17]).to eq("Fundamentos da Ciência Ambiental")
     
-    expect(materias[24]).to eq("ACH1001")
-    expect(materias[25]).to eq("Fundamentos da Ciência Ambiental")
+    expect(materias[24]).to eq("ACH1002")
+    expect(materias[25]).to eq("Introdução à Biologia")
     
-    expect(materias[32]).to eq("ACH1002")
-    expect(materias[33]).to eq("Introdução à Biologia")
+    expect(materias[32]).to eq("ACH1021")
+    expect(materias[33]).to eq("Recursos Naturais e Meio Ambiente")
     
-    expect(materias[-40]).to eq("ACH1147")
-    expect(materias[-39]).to eq("Comportamento, Liderança e Negociação em Gestão Ambiental")
+    expect(materias[-40]).to eq("ACH1157")
+    expect(materias[-39]).to eq("Elaboração e Análise de Projetos Socioambientais")
     
-    expect(materias[-32]).to eq("ACH1157")
-    expect(materias[-31]).to eq("Elaboração e Análise de Projetos Socioambientais")
+    expect(materias[-32]).to eq("ACH1167")
+    expect(materias[-31]).to eq("Infraestrutura de Dados Espaciais para Gestão Ambiental")
     
-    expect(materias[-24]).to eq("ACH1167")
-    expect(materias[-23]).to eq("Infraestrutura de Dados Espaciais para Gestão Ambiental")
+    expect(materias[-24]).to eq("ACH1177")
+    expect(materias[-23]).to eq("Oceanografia Básica e Gerenciamento Costeiro/Oceânico")
     
-    expect(materias[-16]).to eq("ACH1177")
-    expect(materias[-15]).to eq("Oceanografia Básica e Gerenciamento Costeiro/Oceânico")
+    expect(materias[-16]).to eq("ACH1187")
+    expect(materias[-15]).to eq("Desenvolvimento Rural Sustentável")
     
-    expect(materias[-8]).to eq("ACH1187")
-    expect(materias[-7]).to eq("Desenvolvimento Rural Sustentável")
+    expect(materias[-8]).to eq("ACH1197")
+    expect(materias[-7]).to eq("Modelagem Ambiental e Aplicações")
 
   end
   
