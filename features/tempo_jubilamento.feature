@@ -9,3 +9,11 @@ Feature: User can know the time to be jubilado
     When I fill ano_entrada with 2010
     And I click on Calcular
     Then I should see Você terá até dezembro de 2015 para se formar !
+    
+  
+  Scenario: Entering non-numeric character in start year and get a warning
+    
+    Given I am on the Jubilator Pro home page
+    When I fill ano_entrada with abc
+    And I click on Calcular
+    Then I should see Entre com um ano válido !
