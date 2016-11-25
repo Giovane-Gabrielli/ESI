@@ -46,6 +46,9 @@ ActiveRecord::Schema.define(version: 20161109192330) do
   create_table "students", force: :cascade do |t|
     t.string   "name"
     t.string   "nusp"
+    t.string   "manha"
+    t.string   "tarde"
+    t.string   "noite"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "course_id"

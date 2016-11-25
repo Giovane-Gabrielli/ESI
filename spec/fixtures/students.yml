@@ -2,13 +2,22 @@ aluno1:
     id: 1
     name: "Daniel"
     nusp: 1234567
+    manha: "sim"
+    tarde: "sim"
+    noite: "nao"
     
 aluno2:
     id: 2
     name: "Masro"
     nusp: 5555555
+    manha: "nao"
+    tarde: "nao"
+    noite: "sim"
     
 aluno3:
     id: 3
     name: "Renato"
     nusp: 9999999
+    manha: "sim"
+    tarde: "nao"
+    noite: "sim"

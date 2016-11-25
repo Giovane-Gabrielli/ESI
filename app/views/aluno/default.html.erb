@@ -1,0 +1,26 @@
+<script>
+  function clear_div() {
+    document.getElementById("periodos").innerHTML = 
+      "<input type='checkbox' name='opcoes' value='manha' id='manha'/> Manhã</br>" +
+      "<input type='checkbox' name='opcoes' value='tarde' id='tarde'/> Tarde</br>" +
+      "<input type='checkbox' name='opcoes' value='noite' id='noite'/> Noite";
+  }
+</script>
+<h1>Informações sobre o aluno</h1>
+</br>
+</br>
+<h4>
+ Defina aqui suas preferências de graduação
+ </br>
+ </br>
+ <%= form_tag('/aluno', remote: true) do -%>
+  Digite seu número USP: <%= text_field_tag 'nusp'%> - <button name="carregar" id="carregar" type="submit" onclick="clear_div()">Carregar</button>
+  <br>
+  <br>
+  <div id="periodos">
+   <input type="checkbox" name="opcoes" value="manha" id="manha"/> Manhã</br>
+   <input type="checkbox" name="opcoes" value="tarde" id="tarde"/> Tarde</br>
+   <input type="checkbox" name="opcoes" value="noite" id="noite"/> Noite
+  </div>
+ </h4>
+<% end -%>

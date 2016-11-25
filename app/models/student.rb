@@ -13,4 +13,22 @@ class Student < ActiveRecord::Base
         end
         return disciplinas
     end
+    
+    def self.carregarInfos (nusp)
+        periodos = []
+        aluno = Student.find_by(nusp: nusp)
+        if aluno.nil?
+            return periodos
+        end
+        if aluno.manha == "sim"
+            periodos.push("manha")
+        end
+        if aluno.tarde == "sim"
+            periodos.push("tarde")
+        end
+        if aluno.noite == "sim"
+            periodos.push("noite")
+        end
+        return periodos
+    end
 end

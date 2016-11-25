@@ -18,7 +18,11 @@ Rails.application.routes.draw do
   get '/si' => 'disciplinas#SI'
 
   get '/cursos' => 'cursos#default'
-
+  
+  get '/aluno' => 'aluno#default'
+  
+  post '/aluno' => 'aluno#periodos'
+  
   post '/calcular' => 'application#calcular'
 
   # Example of regular route:
