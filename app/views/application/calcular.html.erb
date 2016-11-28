@@ -1,1 +1,5 @@
-$('#ano_jubilamento').append("Você terá até o dezembro de <%= @ano_jubilamento %> para se formar !");
+<% if @ano_jubilamento < 2010 then %>
+$('#ano_jubilamento').append("Entre com um ano válido !");
+<% else %>
+$('#ano_jubilamento').append("Você terá até dezembro de <%= @ano_jubilamento %> para se formar !");
+<% end %>

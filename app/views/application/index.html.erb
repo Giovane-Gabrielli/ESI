@@ -1,3 +1,8 @@
+      <script>
+        function clear_div() {
+            document.getElementById("ano_jubilamento").innerHTML = "";
+        }
+    </script>
       <header>
       <nav id="menu">
       <center>
@@ -41,7 +46,7 @@
         
         <%= form_tag('/calcular', remote: true) do -%>
             Calcule quanto tempo você tem até ser jubilado !!<br>
-            Qual ano você entrou na USP ? <%= text_field_tag 'ano_entrada'%> - <%= button_tag 'Calcular', type: 'submit', name: "Calcular" %>
+            Qual ano você entrou na USP ? <%= text_field_tag 'ano_entrada'%> - <button name="Calcular" type="submit" onclick="clear_div()">Calcular</button>
             <div id="ano_jubilamento"></div>
         <% end -%>
         
