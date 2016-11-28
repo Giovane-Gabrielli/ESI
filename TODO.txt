@@ -41,3 +41,8 @@ Tutoriais:
     AJAX
         http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#form-for
         
+    Testes Unidade
+        http://www.qualister.com.br/blog/ruby-in-tests-parte-1-testes-de-unidade-com-rspec
+        
+        
+        
