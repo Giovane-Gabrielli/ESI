@@ -1,9 +1,9 @@
 <script>
   function clear_div() {
     document.getElementById("periodos").innerHTML = 
-      "<input type='checkbox' name='opcoes' value='manha' id='manha'/> Manhã</br>" +
-      "<input type='checkbox' name='opcoes' value='tarde' id='tarde'/> Tarde</br>" +
-      "<input type='checkbox' name='opcoes' value='noite' id='noite'/> Noite";
+      "<input type='checkbox' name='manha' value='manha' id='manha'/> Manhã</br>" +
+      "<input type='checkbox' name='tarde' value='tarde' id='tarde'/> Tarde</br>" +
+      "<input type='checkbox' name='noite' value='noite' id='noite'/> Noite";
   }
 </script>
 <h1>Informações sobre o aluno</h1>
@@ -18,9 +18,11 @@
   <br>
   <br>
   <div id="periodos">
-   <input type="checkbox" name="opcoes" value="manha" id="manha"/> Manhã</br>
-   <input type="checkbox" name="opcoes" value="tarde" id="tarde"/> Tarde</br>
-   <input type="checkbox" name="opcoes" value="noite" id="noite"/> Noite
+   <input type="checkbox" name="manha" value="manha" id="manha"/> Manhã</br>
+   <input type="checkbox" name="tarde" value="tarde" id="tarde"/> Tarde</br>
+   <input type="checkbox" name="noite" value="noite" id="noite"/> Noite
   </div>
+  </br>
+  <button name="salvar" id="salvar" type="submit" onClick="alert('Dados salvos com sucesso'); return true">Salvar</button>
  </h4>
 <% end -%>

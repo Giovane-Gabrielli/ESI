@@ -21,3 +21,17 @@ Feature: Presenting all Aluno infos
 		And manha must be checked
 		And tarde must be checked
 		And noite must be unchecked
+		
+		
+	Scenario: Enter in Aluno page and create infos to a new Aluno
+
+		Given I am on the Aluno page
+		When I fill in nusp with 2525252
+		And I check noite
+		And I click on salvar
+		#Then A message Dados salvos com sucesso must appear
+		Given I am on the Aluno page
+		When I fill in nusp with 2525252
+		And I click on carregar
+		Then noite must be checked
+		
