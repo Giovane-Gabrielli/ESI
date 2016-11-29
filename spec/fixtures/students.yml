@@ -1,7 +1,10 @@
 aluno1:
     id: 1
     name: "Daniel"
+    email: "daniel@usp.br"
     nusp: 1234567
+    ano_de_entrada: 2014
+    course_id: 1
     manha: "sim"
     tarde: "sim"
     noite: "nao"
@@ -9,7 +12,10 @@ aluno1:
 aluno2:
     id: 2
     name: "Masro"
+    email: "masro@usp.br"
+    ano_de_entrada: 2012
     nusp: 5555555
+    course_id: 2
     manha: "nao"
     tarde: "nao"
     noite: "sim"
@@ -17,7 +23,21 @@ aluno2:
 aluno3:
     id: 3
     name: "Renato"
+    email: "renato@usp.br"
+    ano_de_entrada: 2009
     nusp: 9999999
+    course_id: 1
+    manha: "sim"
+    tarde: "nao"
+    noite: "sim"
+    
+aluno4:
+    id: 4
+    name: "Marco"
+    email: "marco@usp.br"
+    ano_de_entrada: 2010
+    nusp: 7777777
+    course_id: 1
     manha: "sim"
     tarde: "nao"
     noite: "sim"
