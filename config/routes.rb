@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'combinacoes_sobre/combinacoes_sobre'
+  
   get 'sobre/sobre_jubilator'
 
   get 'combinacoes/combinacoes'
@@ -28,6 +30,7 @@ Rails.application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   resources :disciplinas
+
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
