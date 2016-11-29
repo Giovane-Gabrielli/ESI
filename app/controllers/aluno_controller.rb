@@ -1,6 +1,9 @@
 class AlunoController < ApplicationController
   
   def default
+    Course.create(name: "SI", faculty: "EACH")
+    Course.create(name: "GA", faculty: "EACH")
+    
     params.each do |key,value|
       Rails.logger.warn "Param #{key}: #{value}"
     end
