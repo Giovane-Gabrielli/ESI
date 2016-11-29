@@ -1,5 +1,17 @@
 class AlunoController < ApplicationController
-  def aluno
+  
+  def default
+    params.each do |key,value|
+      Rails.logger.warn "Param #{key}: #{value}"
+    end
+    if(params[:nusp] != nil) then
+      @nuspinfo = params[:nusp]
+      @periodos = Student.carregarInfos(@nuspinfo)
+      respond_to do |format|
+        format.html
+        format.js
+      end
+    end
   end
   
   def periodos 

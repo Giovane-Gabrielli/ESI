@@ -10,19 +10,37 @@
 </br>
 </br>
 <h4>
- Defina aqui suas preferências de graduação
- </br>
- </br>
- <%= form_tag('/aluno', remote: true) do -%>
-  Digite seu número USP: <%= text_field_tag 'nusp'%> - <button name="carregar" id="carregar" type="submit" onclick="clear_div()">Carregar</button>
-  <br>
-  <br>
-  <div id="periodos">
-   <input type="checkbox" name="manha" value="manha" id="manha"/> Manhã</br>
-   <input type="checkbox" name="tarde" value="tarde" id="tarde"/> Tarde</br>
-   <input type="checkbox" name="noite" value="noite" id="noite"/> Noite
-  </div>
-  </br>
-  <button name="salvar" id="salvar" type="submit" onClick="alert('Dados salvos com sucesso'); return true">Salvar</button>
- </h4>
-<% end -%>
+    Defina aqui suas preferências de graduação
+    </br>
+    </br>
+    <%= form_tag('/aluno', remote: true) do -%>
+        Digite seu número USP: <%= text_field_tag 'nusp'%> - <button name="carregar" id="carregar" type="submit" onclick="clear_div()">Carregar</button>
+        <br>
+        <br>
+        <div id="periodos">
+            <% if !@nuspinfo then %>
+                <%= check_box_tag 'manha', 'manha' %> Manhã </br>
+                <%= check_box_tag 'tarde', 'tarde' %> Tarde </br>
+                <%= check_box_tag 'noite', 'noite' %> Noite </br>
+            <% else %>
+                <% if @periodos.include?("manha") then %> 
+                    <%= check_box_tag 'manha', 'manha', true %> Manhã </br>
+                <% else %>
+                    <%= check_box_tag 'manha', 'manha' %> Manhã </br>
+                <% end %>
+                <% if @periodos.include?("tarde") then %> 
+                    <%= check_box_tag 'tarde', 'tarde', true %> Tarde </br>
+                <% else %>
+                    <%= check_box_tag 'tarde', 'tarde' %> Tarde </br>
+                <% end %>
+                <% if @periodos.include?("noite") then %> 
+                    <%= check_box_tag 'noite', 'noite', true %> Noite </br>
+                <% else %>
+                    <%= check_box_tag 'noite', 'noite' %> Noite </br>
+                <% end %>
+            <% end %>
+        </div>
+        </br>
+        <button name="salvar" id="salvar" type="submit" onClick="alert('Dados salvos com sucesso'); return true">Salvar</button>
+    <% end -%>
+</h4>

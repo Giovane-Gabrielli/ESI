@@ -3,6 +3,10 @@ Given(/^I am on the Aluno page$/) do
     visit ("/aluno")
 end
 
+Given(/^I am on the Aluno page with nusp (.*)$/) do |nusp|
+  visit ("/aluno?nusp=#{nusp}") 
+end
+
 # When
 When(/^I check (.*)$/) do |chk|
   check chk
