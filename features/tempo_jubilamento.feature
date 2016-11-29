@@ -6,7 +6,7 @@ Feature: User can know the time to be jubilado
   Scenario: Enter the start year and get the max time to complete
     
     Given I am on the Jubilator Pro home page
-    When I fill ano_entrada with 2010
+    When I fill in ano_entrada with 2010
     And I click on Calcular
     Then I should see Você terá até dezembro de 2015 para se formar !
     
@@ -14,6 +14,6 @@ Feature: User can know the time to be jubilado
   Scenario: Entering non-numeric character in start year and get a warning
     
     Given I am on the Jubilator Pro home page
-    When I fill ano_entrada with abc
+    When I fill in ano_entrada with abc
     And I click on Calcular
     Then I should see Entre com um ano válido !
