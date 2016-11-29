@@ -6,7 +6,7 @@ end
 # When
 When(/^I am on Combinações$/) do
   click_link('Combinações')
-  visit combinacoes_path
+  visit combinacoes_combinacoes_path
 end
 
 # Then

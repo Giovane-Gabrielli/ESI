@@ -1,0 +1,9 @@
+curso1:
+    id: 1
+    name: "SI"
+    faculty: "EACH"
+    
+curso2:
+    id: 2
+    name: "GA"
+    faculty: "EACH"
