@@ -10,8 +10,6 @@ script:
 before_install:
     - gem update --system
     - gem --version
-    - rake db:migrate
-    - rake db:setup
     
 deploy:
     provider: heroku
