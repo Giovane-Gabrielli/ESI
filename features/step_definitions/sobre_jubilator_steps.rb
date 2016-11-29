@@ -11,5 +11,5 @@ end
 
 # Then
 Then(/^I should be on Sobre Jubilator page$/) do
-  expect(page).to have_content("O Jubilator Pro é uma aplicação Web para auxílio no gerenciamento do cronograma da grade curricular.")
+  expect(page).to have_content("Informações sobre o Jubilator Pro")
 end
