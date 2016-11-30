@@ -9,14 +9,13 @@ default: &default
   encoding: unicode
   pool: 5
   timeout: 5000
-
+  username: postgres
+  password:
 
 
 development:
   <<: *default
   database: development_app
-  username: postgres
-  password: password
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -25,8 +24,6 @@ development:
 test: &test
   <<: *default
   database: test_app
-  username: postgres
-  password: password
   host: localhost
 
 production:
