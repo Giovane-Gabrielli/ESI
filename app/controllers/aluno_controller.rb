@@ -1,4 +1,5 @@
 class AlunoController < ApplicationController
+  protect_from_forgery with: :exception
   
   def default
     if Course.find_by(id: 1) == nil then
