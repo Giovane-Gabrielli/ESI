@@ -26,9 +26,6 @@ test: &test
   database: test_app
   host: localhost
 
-production:
-  <<: *default
-  database: production_app
 
 cucumber:
   <<: *test

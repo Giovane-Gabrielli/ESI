@@ -17,6 +17,7 @@ deploy:
         secure: a3bce854-c6c0-4446-a05d-981cd2c348e1
     app: jubilatorpro
     run:
+        - "rake db:create:all"
         - "rake db:migrate"
         - "rake db:setup"
 
@@ -26,4 +27,3 @@ services:
   
 before_script:
   - psql -c 'create database test_app;' -U postgres
-  - psql -c 'create database production_app;' -U postgres
