@@ -9,15 +9,15 @@ default: &default
   encoding: unicode
   pool: 5
   timeout: 5000
-  username: postgres
-  password: password
-  host: localhost
 
 
 
 development:
   <<: *default
   database: development_app
+  username: postgres
+  password: password
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -25,6 +25,9 @@ development:
 test: &test
   <<: *default
   database: test_app
+  username: postgres
+  password: password
+  host: localhost
 
 production:
   <<: *default
