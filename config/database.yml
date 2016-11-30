@@ -17,7 +17,7 @@ development:
   database: development_app
   host: localhost
   username: postgres
-  password:
+  password: password
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -27,7 +27,7 @@ test: &test
   database: test_app
   host: localhost
   username: postgres
-  password:
+  password: password
 
 
 cucumber:
