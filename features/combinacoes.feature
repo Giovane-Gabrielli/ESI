@@ -9,7 +9,7 @@ Feature: Tela de Combinações
 		Then I should be Combinações home page
 		And I should see Informações e links
 		And I should see Distribuição da combinação
-		And I should see <<<< escolha suas combinações aqui
+		#And I should see <<<< escolha suas combinações aqui
 		And I should see campus
 		And I should see Bem Vindo
 		And I should see Jubilator Pro
