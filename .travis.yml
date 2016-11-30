@@ -6,8 +6,6 @@ sudo: false
  
 script:
     - bundle exec rake
-    - RAILS_ENV=production bundle exec rake db:migrate
-    - RAILS_ENV=production bundle exec rake db:setup
    
 before_install:
     - gem update --system
@@ -18,6 +16,9 @@ deploy:
     api_key:
         secure: a3bce854-c6c0-4446-a05d-981cd2c348e1
     app: jubilatorpro
+    run:
+        - "rake db:migrate"
+        - "rake db:setup"
 
 services:
   - postgresql
