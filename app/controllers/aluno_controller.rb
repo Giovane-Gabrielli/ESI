@@ -1,12 +1,12 @@
 class AlunoController < ApplicationController
   
   def default
-    #if Course.find_by(id: 1) == nil then
-      #Course.create(name: "SI", faculty: "EACH")
-    #end
-    #if Course.find_by(id: 2) == nil then
-      #Course.create(name: "GA", faculty: "EACH")
-    #end
+    if Course.find_by(id: 1) == nil then
+      Course.create(name: "SI", faculty: "EACH")
+    end
+    if Course.find_by(id: 2) == nil then
+      Course.create(name: "GA", faculty: "EACH")
+    end
     
     params.each do |key,value|
       Rails.logger.warn "Param #{key}: #{value}"
