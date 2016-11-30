@@ -1,39 +1,61 @@
 <script>
-  function clear_div() {
-    document.getElementById("periodos").innerHTML = 
-      "<input type='checkbox' name='manha' value='manha' id='manha'/> Manhã</br>" +
-      "<input type='checkbox' name='tarde' value='tarde' id='tarde'/> Tarde</br>" +
-      "<input type='checkbox' name='noite' value='noite' id='noite'/> Noite";
-  }
+    function clear_div() {
+        document.getElementById("periodos").innerHTML = 
+            "Nome: </br>" +
+            "<input type='text' name='nome' id='nome'/></br>" +
+            "Email: </br>" +
+            "<input type='text' name='email' id='email'/> </br>" +
+            "Ano de entrada: </br>" +
+            "<input type='text' name='ano_de_entrada' id='ano_de_entrada'/> </br>" +
+            "Qual seu curso: </br>" +
+            "<input type='radio' name='curso' id='1' value='1'> SI </br>" +
+            "<input type='radio' name='curso' id='2' value='2'>  GA </br>" +
+            "Qual o(s) período(s) em que pode cursar: </br>" +
+            "<input type='checkbox' name='manha' value='manha' id='manha'/> Manhã</br>" +
+            "<input type='checkbox' name='tarde' value='tarde' id='tarde'/> Tarde</br>" +
+            "<input type='checkbox' name='noite' value='noite' id='noite'/> Noite";
+    }
+    function clear_div2() {
+        document.getElementById("msgs").innerHTML = "";
+    }
 </script>
 <h1>Informações sobre o aluno</h1>
 </br>
-</br>
 <h4>
-    Defina aqui suas preferências de graduação
+    Crie a atualize aqui suas preferências de graduação
     </br>
     </br>
     <%= form_tag('/aluno', remote: true) do -%>
-        Digite seu número USP: <%= text_field_tag 'nusp'%> - <button name="carregar" id="carregar" type="submit" onclick="clear_div()">Carregar</button>
+        Digite seu número USP: <%= text_field_tag 'nusp'%> - <button name="carregar" id="carregar" type="submit" onclick="clear_div()" value="carregar">Carregar</button>
         <br>
         <br>
         <div id="periodos">
+            Nome: </br>
+            <%= text_field_tag 'nome' %> </br>
+            Email: </br>
+            <%= text_field_tag 'email' %> </br>
+            Ano de entrada: </br>
+            <%= text_field_tag 'ano_de_entrada' %> </br>
+            Qual seu curso: </br>
+            <input type='radio' name='curso' id='1' value='1'> SI </br>
+            <input type='radio' name='curso' id='2' value='2'>  GA </br>
+            Qual o(s) período(s) em que pode cursar: </br>
             <% if !@nuspinfo then %>
                 <%= check_box_tag 'manha', 'manha' %> Manhã </br>
                 <%= check_box_tag 'tarde', 'tarde' %> Tarde </br>
                 <%= check_box_tag 'noite', 'noite' %> Noite </br>
             <% else %>
-                <% if @periodos.include?("manha") then %> 
+                <% if @infos[4] == "sim" then %> 
                     <%= check_box_tag 'manha', 'manha', true %> Manhã </br>
                 <% else %>
                     <%= check_box_tag 'manha', 'manha' %> Manhã </br>
                 <% end %>
-                <% if @periodos.include?("tarde") then %> 
+                <% if @infos[5] == "sim" then %> 
                     <%= check_box_tag 'tarde', 'tarde', true %> Tarde </br>
                 <% else %>
                     <%= check_box_tag 'tarde', 'tarde' %> Tarde </br>
                 <% end %>
-                <% if @periodos.include?("noite") then %> 
+                <% if @infos[6] == "sim" then %> 
                     <%= check_box_tag 'noite', 'noite', true %> Noite </br>
                 <% else %>
                     <%= check_box_tag 'noite', 'noite' %> Noite </br>
@@ -41,6 +63,7 @@
             <% end %>
         </div>
         </br>
-        <button name="salvar" id="salvar" type="submit">Salvar</button>
+        <button name="salvar" id="salvar" type="submit" value="salvar" onclick="clear_div2()">Salvar</button> - <button name="criar" id="criar" type="submit" value="criar" onclick="clear_div2()">Criar</button>
     <% end -%>
+    <div id="msgs"></div>
 </h4>

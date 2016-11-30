@@ -1,7 +1,11 @@
+	# Como um usuário
+	# Para me organizar melhor e ter maior controle sobre a minha grade
+	# Gostaria de poder indicar a minha disponibilidade de fazer matérias em qualquer período e em qualquer combinação: manhã, tarde e noite
+
 Feature: Presenting all Aluno infos
-	Como um usuário
-	Para me organizar melhor e ter maior controle sobre a minha grade
-	Gostaria de poder indicar a minha disponibilidade de fazer matérias em qualquer período e em qualquer combinação: manhã, tarde e noite
+	Como aluno
+	Para utilizar o sistema
+	Gostaria de poder criar um novo usuário no sistema, informando os dados necessários
 	
 	Scenario: Enter in Aluno page
 
@@ -21,7 +25,11 @@ Feature: Presenting all Aluno infos
 
 		Given I am on the Aluno page
 		When I fill in nusp with 2525252
+		And I fill in nome with Renan
+		And I fill in ano_de_entrada with 2010
+		And I fill in email with renan@usp.br
+		And I choose 1
 		And I check noite
-		And I click on salvar
+		And I click on criar
 		Given I am on the Aluno page with nusp 2525252
 		Then noite must be checked

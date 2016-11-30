@@ -1,3 +1,21 @@
-<% @periodos.each do |per| %>
-$('#<%= per %>')[0].checked = true;
+<% if @novoUser then %>
+    $('#msgs').append("Novo usuário criado com sucesso !");
+<% else %>
+    <% if @atualizacoes then %>
+        $('#msgs').append("Dados atualizados com sucesso !");
+    <% else %>
+        $('#nome').val("<%= @infos[0] %>");
+        $('#email').val("<%= @infos[1] %>");
+        $('#ano_de_entrada').val("<%= @infos[3] %>");
+        $('#<%= @infos[2] %>').prop("checked", true);
+        <% if @infos[4] == "sim" then %>
+            $('#manha')[0].checked = true;
+        <% end %>
+        <% if @infos[5] == "sim" then %>
+            $('#tarde')[0].checked = true;
+        <% end %>
+        <% if @infos[6] == "sim" then %>
+            $('#noite')[0].checked = true;
+        <% end %>
+    <% end %>
 <% end %>

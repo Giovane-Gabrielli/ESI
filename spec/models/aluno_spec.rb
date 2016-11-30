@@ -23,7 +23,8 @@ RSpec.describe Student, :type => :model do
     describe ".carregarInfos" do
         context "given a nusp that exists" do
             it "returns periodos" do
-                expect(Student.carregarInfos(1234567)).to eql(["manha", "tarde"])
+                # a ordem dos parametros : nome, email, curso, ano, manha, tarde, noite
+                expect(Student.carregarInfos(1234567)).to eql(["Daniel", "daniel@usp.br", 1, "2014", "sim", "sim", "nao"])
             end 
         end
     end
